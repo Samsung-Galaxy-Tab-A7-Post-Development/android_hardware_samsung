@@ -24,6 +24,5 @@ LOCAL_CFLAGS += -DUSES_VND_SECRIL
 endif
 
 LOCAL_MODULE:= libsecril-client
-LOCAL_PRELINK_MODULE := false
 
 include $(BUILD_SHARED_LIBRARY)
