@@ -28,7 +28,10 @@ cc_library_shared {
         "android.hardware.sensors@1.0-convert",
         "android.hardware.sensors@2.X-multihal",
     ],
-    cflags: [
+    cflags: select(soong_config_variable("sensors_samsung", "long_press_path"), {
+        any @ long_press: ["-DFOD_LONGPRESS_PATH= + \"long_press\""],
+        default: [],
+    }) + [
         "-DLOG_TAG=\"sensors.samsung\"",
     ],
     vendor: true,
