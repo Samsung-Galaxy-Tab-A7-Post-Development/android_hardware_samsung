@@ -12,7 +12,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.UserHandle;
 import android.view.View;
-import android.widget.Switch;
+import android.widget.CompoundButton;
+import android.widget.CompoundButton.OnCheckedChangeListener;
 
 import androidx.preference.Preference;
 import androidx.preference.PreferenceFragment;
@@ -20,13 +21,12 @@ import androidx.preference.SwitchPreference;
 
 import com.android.settingslib.widget.ActionButtonsPreference;
 import com.android.settingslib.widget.MainSwitchPreference;
-import com.android.settingslib.widget.OnMainSwitchChangeListener;
 
 import org.lineageos.spenactions.BluetoothUtils;
 import org.lineageos.spenactions.R;
 
 public class SPenSettingsFragment extends PreferenceFragment implements
-        Preference.OnPreferenceChangeListener, OnMainSwitchChangeListener,
+        Preference.OnPreferenceChangeListener, OnCheckedChangeListener,
         View.OnClickListener {
 
     private SwitchPreference mEnableBluetoothPreference;
@@ -62,7 +62,7 @@ public class SPenSettingsFragment extends PreferenceFragment implements
     }
 
     @Override
-    public void onSwitchChanged(Switch switchView, boolean isChecked) {
+    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
     }
 
     @Override
