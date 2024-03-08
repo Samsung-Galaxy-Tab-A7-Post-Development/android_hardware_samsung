@@ -17,7 +17,7 @@ import android.widget.CompoundButton.OnCheckedChangeListener;
 
 import androidx.preference.Preference;
 import androidx.preference.PreferenceFragment;
-import androidx.preference.SwitchPreference;
+import androidx.preference.SwitchPreferenceCompat;
 
 import com.android.settingslib.widget.ActionButtonsPreference;
 import com.android.settingslib.widget.MainSwitchPreference;
@@ -29,7 +29,7 @@ public class SPenSettingsFragment extends PreferenceFragment implements
         Preference.OnPreferenceChangeListener, OnCheckedChangeListener,
         View.OnClickListener {
 
-    private SwitchPreference mEnableBluetoothPreference;
+    private SwitchPreferenceCompat mEnableBluetoothPreference;
     private ActionButtonsPreference mActionButtonsPreference;
 
     @Override
