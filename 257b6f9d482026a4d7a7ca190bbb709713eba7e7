@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "18d108d8_0f4df261",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2024-03-29T17:19:09Z",
+      "side": 1,
+      "message": "Fixes signal bar on a52q, a72q, a52sxq, m52xq and a73xq in combination with U RIL. LTE+ and 5G were already working here",
+      "revId": "257b6f9d482026a4d7a7ca190bbb709713eba7e7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
