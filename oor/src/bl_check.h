@@ -1,6 +1,8 @@
 #ifndef _BL_CHECK_H
 #define _BL_CHECK_H
 
+#define CRC_PERMISSIVE 1
+
 #include "config.h"
 
 #include <stdint.h>
