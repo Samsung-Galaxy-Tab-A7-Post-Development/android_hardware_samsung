@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e8288ab1_8c9ff0a9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-04-26T16:52:41Z",
+      "side": 1,
+      "message": "Hold - as on devices like mine I don\u0027t want it running except for test cases.",
+      "revId": "54eb33e91d3a91c6ed3fbaa5740395ac3dd9b6b3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
