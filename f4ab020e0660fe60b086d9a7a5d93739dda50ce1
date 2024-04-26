@@ -16,6 +16,41 @@
       "message": "PS2 uses ro.bootloader instead of CRC check -- not yet sold which I want to use in production",
       "revId": "f4ab020e0660fe60b086d9a7a5d93739dda50ce1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1adc35e9_82151767",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31496
+      },
+      "writtenOn": "2024-04-26T07:39:15Z",
+      "side": 1,
+      "message": "IMO ro.bootloader is much cleaner",
+      "revId": "f4ab020e0660fe60b086d9a7a5d93739dda50ce1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b2e20db1_d7792177",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31496
+      },
+      "writtenOn": "2024-04-26T07:39:15Z",
+      "side": 1,
+      "message": "IMO PS1 is the more fool-proof one, if my vote counts as anything. I\u0027m sure ro.bootloader will always exist, but on the off chance some funny happens... well the aboot will always exist and will always have a checksum",
+      "parentUuid": "b5aa8ff9_849d4280",
+      "revId": "f4ab020e0660fe60b086d9a7a5d93739dda50ce1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
