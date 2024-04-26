@@ -69,6 +69,24 @@
       "parentUuid": "1adc35e9_82151767",
       "revId": "f4ab020e0660fe60b086d9a7a5d93739dda50ce1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bcff5ff4_bde6760e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-04-26T17:04:34Z",
+      "side": 1,
+      "message": "moved it back to CRC and stacked the ro.bootloader on top, won\u0027t merge",
+      "parentUuid": "f316c4f0_2465095d",
+      "revId": "f4ab020e0660fe60b086d9a7a5d93739dda50ce1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
