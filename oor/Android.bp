@@ -1,3 +1,6 @@
+soong_namespace {
+}
+
 cc_binary_host {
     name: "bin_to_c",
     cflags: [
