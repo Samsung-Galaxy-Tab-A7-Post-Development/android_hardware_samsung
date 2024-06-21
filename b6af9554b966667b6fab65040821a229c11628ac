@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "aebf0ac0_6a1ade9a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25925
+      },
+      "writtenOn": "2024-06-21T11:07:50Z",
+      "side": 1,
+      "message": "There are more HALs in here that use this way of overriding headers, should probably update them all instead.",
+      "revId": "b6af9554b966667b6fab65040821a229c11628ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
