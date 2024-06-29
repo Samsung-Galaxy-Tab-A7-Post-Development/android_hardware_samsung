@@ -16,6 +16,23 @@
       "message": "Verified on a52q (32bit) and m52xq (64bit)",
       "revId": "dc56a9faa684d1b07478f98c003d968ad4a4fb75",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "92c7ccb3_9957d77e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2024-06-29T13:15:50Z",
+      "side": 1,
+      "message": "That works with libs, but not with services",
+      "revId": "dc56a9faa684d1b07478f98c003d968ad4a4fb75",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
