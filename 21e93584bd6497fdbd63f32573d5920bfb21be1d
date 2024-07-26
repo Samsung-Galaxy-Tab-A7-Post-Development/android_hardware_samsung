@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7cdfb11f_e62f8ce5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 33846
+      },
+      "writtenOn": "2024-07-26T22:52:49Z",
+      "side": 1,
+      "message": "*Note: Not sure how to handle radio stuff here, since some devices don\u0027t declare slot2. IMO it\u0027d probably be fine to include both slots but I\u0027ll wait for a review from someone who knows more.",
+      "revId": "21e93584bd6497fdbd63f32573d5920bfb21be1d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
