@@ -1,5 +1,36 @@
 <compatibility-matrix version="2.0" type="framework">
     <hal format="hidl" optional="true">
+        <name>android.hardware.radio</name>
+        <version>1.0-4</version>
+        <interface>
+            <name>IRadio</name>
+            <instance>slot1</instance>
+            <instance>slot2</instance>
+        </interface>
+        <interface>
+            <name>ISap</name>
+            <instance>slot1</instance>
+            <instance>slot2</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>android.hardware.radio</name>
+        <version>1.2</version>
+        <interface>
+            <name>ISap</name>
+            <instance>slot1</instance>
+            <instance>slot2</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>android.hardware.radio.config</name>
+        <version>1.0-1</version>
+        <interface>
+            <name>IRadioConfig</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
         <name>vendor.samsung.hardware.audio</name>
         <version>1.0</version>
         <interface>
@@ -61,6 +92,91 @@
         <interface>
             <name>ISehMiscPower</name>
             <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl">
+        <name>vendor.samsung.hardware.radio.network</name>
+        <version>1</version>
+        <interface>
+            <name>ISehRadioNetwork</name>
+            <instance>slot1</instance>
+            <instance>slot2</instance>
+        </interface>
+    </hal>
+    <hal format="aidl">
+        <name>vendor.samsung.hardware.radio.channel</name>
+        <version>1</version>
+        <interface>
+            <name>ISehRadioChannel</name>
+            <instance>imsd</instance>
+            <instance>imsd2</instance>
+            <instance>epdgd</instance>
+            <instance>epdgd2</instance>
+        </interface>
+    </hal>
+    <hal format="aidl">
+        <name>vendor.samsung.hardware.radio.bridge</name>
+        <version>1</version>
+        <interface>
+            <name>ISehRadioBridge</name>
+            <instance>slot1</instance>
+            <instance>slot2</instance>
+        </interface>
+    </hal>
+    <hal format="aidl">
+        <name>vendor.samsung.hardware.radio.data</name>
+        <version>1</version>
+        <interface>
+            <name>ISehRadioData</name>
+            <instance>slot1</instance>
+            <instance>slot2</instance>
+        </interface>
+    </hal>
+    <hal format="aidl">
+        <name>vendor.samsung.hardware.radio.sim</name>
+        <version>1</version>
+        <interface>
+            <name>ISehRadioSim</name>
+            <instance>slot1</instance>
+            <instance>slot2</instance>
+        </interface>
+    </hal>
+    <hal format="aidl">
+        <name>vendor.samsung.hardware.radio.messaging</name>
+        <version>1</version>
+        <interface>
+            <name>ISehRadioMessaging</name>
+            <instance>slot1</instance>
+            <instance>slot2</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.samsung.hardware.radio</name>
+        <version>2.0-2</version>
+        <interface>
+            <name>ISehRadio</name>
+            <instance>slot1</instance>
+            <instance>slot2</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.samsung.hardware.radio.bridge</name>
+        <version>2.0</version>
+        <interface>
+            <name>ISehBridge</name>
+            <instance>slot1</instance>
+            <instance>slot2</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.samsung.hardware.radio.channel</name>
+        <version>2.0</version>
+        <interface>
+            <name>ISehChannel</name>
+            <instance>epdgd</instance>
+            <instance>epdgd2</instance>
+            <instance>imsd</instance>
+            <instance>imsd2</instance>
         </interface>
     </hal>
     <hal format="hidl" optional="true">
