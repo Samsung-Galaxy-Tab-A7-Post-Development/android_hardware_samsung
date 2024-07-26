@@ -16,6 +16,24 @@
       "message": "*Note: Not sure how to handle radio stuff here, since some devices don\u0027t declare slot2. IMO it\u0027d probably be fine to include both slots but I\u0027ll wait for a review from someone who knows more.",
       "revId": "21e93584bd6497fdbd63f32573d5920bfb21be1d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b415fb56_944c8564",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2024-07-26T22:55:51Z",
+      "side": 1,
+      "message": "This is a FCM, if slot2 is not here, then it\u0027s not valid on devices that have that instance in the manifest. But you can double check this anyway, just make a build with and without it.",
+      "parentUuid": "7cdfb11f_e62f8ce5",
+      "revId": "21e93584bd6497fdbd63f32573d5920bfb21be1d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
