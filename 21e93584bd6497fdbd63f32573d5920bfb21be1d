@@ -51,6 +51,24 @@
       "message": "Tested on my Galaxy A71 build, didn\u0027t break anything since I added radio entries from device-specific fcm like this https://github.com/a71-devs/android_device_samsung_a71/commit/223565b5b4b684c31645e7e695af30d981404c0c",
       "revId": "21e93584bd6497fdbd63f32573d5920bfb21be1d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "401bbcd3_9d8c1929",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2024-07-26T23:29:47Z",
+      "side": 1,
+      "message": "Yea, but add those here in this FCM. That\u0027s the whole point of a common Samsung FCM.",
+      "parentUuid": "732a8d40_720d13ba",
+      "revId": "21e93584bd6497fdbd63f32573d5920bfb21be1d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
