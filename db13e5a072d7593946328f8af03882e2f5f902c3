@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b578b8c1_e8dc28d6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 33846
+      },
+      "writtenOn": "2024-07-27T10:18:48Z",
+      "side": 1,
+      "message": "a70q builds",
+      "revId": "db13e5a072d7593946328f8af03882e2f5f902c3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
