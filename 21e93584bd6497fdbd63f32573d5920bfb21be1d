@@ -69,6 +69,23 @@
       "parentUuid": "732a8d40_720d13ba",
       "revId": "21e93584bd6497fdbd63f32573d5920bfb21be1d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9f1f4e52_565bd410",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 33846
+      },
+      "writtenOn": "2024-07-27T10:17:28Z",
+      "side": 1,
+      "message": "https://review.lineageos.org/c/LineageOS/android_hardware_samsung/+/398574",
+      "revId": "21e93584bd6497fdbd63f32573d5920bfb21be1d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
