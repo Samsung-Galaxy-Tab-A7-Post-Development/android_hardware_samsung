@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7fcba223_e2e4ed8b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26928
+      },
+      "writtenOn": "2024-07-27T11:59:50Z",
+      "side": 1,
+      "message": "Both hidl and aidl entries are fine on my device (a71).",
+      "revId": "35781f5c1a79acd7c457cfec33417c6048dc67cf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
