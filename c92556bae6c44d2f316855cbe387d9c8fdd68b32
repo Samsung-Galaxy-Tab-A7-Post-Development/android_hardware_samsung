@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1340b97a_ffb0c072",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26928
+      },
+      "writtenOn": "2024-07-27T17:03:08Z",
+      "side": 1,
+      "message": "Please check sim after reboot, and see if still works.",
+      "revId": "c92556bae6c44d2f316855cbe387d9c8fdd68b32",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
