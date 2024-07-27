@@ -86,6 +86,23 @@
       "message": "https://review.lineageos.org/c/LineageOS/android_hardware_samsung/+/398574",
       "revId": "21e93584bd6497fdbd63f32573d5920bfb21be1d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8b1deebe_d28d38b9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2024-07-27T11:19:56Z",
+      "side": 1,
+      "message": "Please follow the dir and file name from hardware/xiaomi for some consistency.",
+      "revId": "21e93584bd6497fdbd63f32573d5920bfb21be1d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
