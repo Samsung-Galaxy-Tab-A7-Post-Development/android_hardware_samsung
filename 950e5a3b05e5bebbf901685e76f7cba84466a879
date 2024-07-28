@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9b2317df_3f37e429",
+        "filename": "vintf/samsung_framework_compatibility_matrix.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2024-07-28T16:19:22Z",
+      "side": 1,
+      "message": "name and instance like the rest of the file, pls",
+      "revId": "950e5a3b05e5bebbf901685e76f7cba84466a879",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
