@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "38c63139_29c6a613",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2024-07-28T11:45:37Z",
+      "side": 1,
+      "message": "Commit message is bad. This isn\u0027t fixing \"unknown\" baseband at all because this is a FCM, not a manifest.",
+      "revId": "ba6f48c825b95410e4fc5989dc781743887c4c50",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
