@@ -33,6 +33,24 @@
       "message": "remove",
       "revId": "bc9d066af6925ad044c50220a235f56beb46c521",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "237955ad_24a2f21d",
+        "filename": "vintf/samsung_framework_compatibility_matrix.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2024-07-28T17:50:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cb92f5c7_ddf8282b",
+      "revId": "bc9d066af6925ad044c50220a235f56beb46c521",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
