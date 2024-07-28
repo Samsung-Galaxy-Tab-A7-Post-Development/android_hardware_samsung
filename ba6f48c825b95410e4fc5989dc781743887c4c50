@@ -16,6 +16,24 @@
       "message": "Commit message is bad. This isn\u0027t fixing \"unknown\" baseband at all because this is a FCM, not a manifest.",
       "revId": "ba6f48c825b95410e4fc5989dc781743887c4c50",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "999ef60a_a999a10d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26928
+      },
+      "writtenOn": "2024-07-28T15:58:13Z",
+      "side": 1,
+      "message": "we can close this, mostly was device tree issue. I\u0027ll check it in a clean build",
+      "parentUuid": "38c63139_29c6a613",
+      "revId": "ba6f48c825b95410e4fc5989dc781743887c4c50",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

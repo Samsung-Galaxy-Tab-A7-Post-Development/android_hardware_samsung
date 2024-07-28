@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "aa518ff0_f98d8062",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26928
+      },
+      "writtenOn": "2024-07-28T15:58:13Z",
+      "side": 1,
+      "message": "RIL issue was device specific issue, now it\u0027s fixed after I refactor lineage-21 bringup.",
+      "revId": "a160c2a014b362333eab7e30e5650afd084afd78",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
