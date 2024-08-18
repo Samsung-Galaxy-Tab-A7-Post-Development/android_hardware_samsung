@@ -37,6 +37,11 @@ int main() {
     ABinderProcess_setThreadPoolMaxThreadCount(HWBINDER_THREAD_COUNT);
 
     std::shared_ptr<CameraProvider> defaultProvider = ndk::SharedRefBase::make<CameraProvider>();
+
+    if (defaultProvider->isInitFailed()) {
+        return EXIT_FAILURE;
+    }
+
     const std::string serviceName = std::string(CameraProvider::descriptor) + "/internal/0";
 
     binder_exception_t ret =
