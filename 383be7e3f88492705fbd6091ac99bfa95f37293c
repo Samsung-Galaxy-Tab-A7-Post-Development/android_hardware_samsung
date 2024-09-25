@@ -16,6 +16,23 @@
       "message": "tested and booted on my Galaxy M33 5G",
       "revId": "383be7e3f88492705fbd6091ac99bfa95f37293c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "35430004_229c8781",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26928
+      },
+      "writtenOn": "2024-09-25T17:32:53Z",
+      "side": 1,
+      "message": "@priv.luk@gmail.com @bgcngm@gmail.com @tim@linux4.de",
+      "revId": "383be7e3f88492705fbd6091ac99bfa95f37293c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
