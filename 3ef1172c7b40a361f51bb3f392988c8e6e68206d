@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d1b71cd5_e4fdca62",
+        "filename": "vintf/samsung_framework_compatibility_matrix.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 26928
+      },
+      "writtenOn": "2024-10-20T08:07:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e94f4e67_e3e5b0ed",
+      "revId": "3ef1172c7b40a361f51bb3f392988c8e6e68206d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2fd67400_e08d9f83",
@@ -71,6 +89,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d986dcd9_850bd973",
+        "filename": "vintf/samsung_framework_compatibility_matrix.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 26928
+      },
+      "writtenOn": "2024-10-20T08:07:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5bb4dbec_9c3c2483",
+      "revId": "3ef1172c7b40a361f51bb3f392988c8e6e68206d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b1984a55_23c6aba5",
@@ -84,6 +120,24 @@
       "writtenOn": "2024-10-20T07:50:05Z",
       "side": 1,
       "message": "optional",
+      "revId": "3ef1172c7b40a361f51bb3f392988c8e6e68206d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6b2b3b2c_100179ae",
+        "filename": "vintf/samsung_framework_compatibility_matrix.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 260,
+      "author": {
+        "id": 26928
+      },
+      "writtenOn": "2024-10-20T08:07:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b1984a55_23c6aba5",
       "revId": "3ef1172c7b40a361f51bb3f392988c8e6e68206d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
