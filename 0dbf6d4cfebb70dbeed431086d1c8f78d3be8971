@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5640b1e0_53f809d1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26928
+      },
+      "writtenOn": "2024-10-20T11:18:33Z",
+      "side": 1,
+      "message": "The build is passed on a71 without issues.",
+      "revId": "0dbf6d4cfebb70dbeed431086d1c8f78d3be8971",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
