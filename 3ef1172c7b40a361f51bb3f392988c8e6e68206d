@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2fd67400_e08d9f83",
+        "filename": "vintf/samsung_framework_compatibility_matrix.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 25925
+      },
+      "writtenOn": "2024-10-20T07:15:52Z",
+      "side": 1,
+      "message": "This should be optional\u003d\"true\" otherwise it breaks build on older devices.",
+      "revId": "3ef1172c7b40a361f51bb3f392988c8e6e68206d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
