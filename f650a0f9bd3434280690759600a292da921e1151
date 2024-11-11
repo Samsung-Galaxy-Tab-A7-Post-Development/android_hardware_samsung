@@ -34,6 +34,24 @@
       "parentUuid": "f6717ee3_8cba7c5c",
       "revId": "f650a0f9bd3434280690759600a292da921e1151",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9ad7af13_d15d2f90",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32210
+      },
+      "writtenOn": "2024-11-11T11:47:08Z",
+      "side": 1,
+      "message": "Hmm how come it doesnt for me out of the box, did you need to make any changes to make the optical to work? i have to modifiy the aidl hal in order to get it to work.",
+      "parentUuid": "50cd0b43_71478f8b",
+      "revId": "f650a0f9bd3434280690759600a292da921e1151",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
