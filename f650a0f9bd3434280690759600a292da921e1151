@@ -16,6 +16,24 @@
       "message": "The reason for this update is to resolve a compatibility error occurring during VINTF manifest generation. This fix specifically aligns with our device setup, but I\u0027m not entirely sure how it might impact other Samsung models. @bgcngm@gmail.com",
       "revId": "f650a0f9bd3434280690759600a292da921e1151",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "50cd0b43_71478f8b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26928
+      },
+      "writtenOn": "2024-11-11T11:44:29Z",
+      "side": 1,
+      "message": "I\u0027ll test it this evening, udfps works out of the box on los 22.0 for a71.",
+      "parentUuid": "f6717ee3_8cba7c5c",
+      "revId": "f650a0f9bd3434280690759600a292da921e1151",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
