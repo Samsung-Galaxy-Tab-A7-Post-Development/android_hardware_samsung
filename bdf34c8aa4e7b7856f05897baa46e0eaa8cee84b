@@ -16,6 +16,24 @@
       "message": "Why don\u0027t you simply inherit from qcom-common and only add the additional samsung specifics?",
       "revId": "bdf34c8aa4e7b7856f05897baa46e0eaa8cee84b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1243fed1_0f8c0088",
+        "filename": "symlinks/qcom-common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2024-11-11T10:55:47Z",
+      "side": 0,
+      "message": "Hmm, I guess it\u0027s because of the mpss_readonly_firmware_symlink difference?",
+      "parentUuid": "239edd7c_05363bde",
+      "revId": "bdf34c8aa4e7b7856f05897baa46e0eaa8cee84b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
