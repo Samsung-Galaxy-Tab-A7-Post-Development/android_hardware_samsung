@@ -1,10 +1,11 @@
 /*
- * Copyright (C) 2024 The LineageOS Project
+ * Copyright (C) 2024-2025 The LineageOS Project
  *
  * SPDX-License-Identifier: Apache-2.0
  */
 
 #include "Fingerprint.h"
+#include "OpticalUdfps.h"
 #include "VendorConstants.h"
 
 #include <fingerprint.sysprop.h>
@@ -65,6 +66,11 @@ Fingerprint::Fingerprint() {
             FingerprintHalProperties::max_enrollments_per_user().value_or(MAX_ENROLLMENTS_PER_USER);
     mSupportsGestures =
             FingerprintHalProperties::supports_gestures().value_or(SUPPORTS_NAVIGATION_GESTURES);
+
+    if (mSensorType == FingerprintSensorType::UNDER_DISPLAY_OPTICAL) {
+        mOpticalUdfps = std::make_unique<OpticalUdfps>();
+        LOG(INFO) << "Optical UDFPS initialized for FOD";
+    }
 
     if (mSupportsGestures) {
         mHal.request(FINGERPRINT_REQUEST_NAVIGATION_MODE_START, 1);
