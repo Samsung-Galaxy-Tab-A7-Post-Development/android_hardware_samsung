@@ -70,6 +70,24 @@
       "parentUuid": "b9a42a6a_34c3abad",
       "revId": "bdf34c8aa4e7b7856f05897baa46e0eaa8cee84b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8e33e7b1_79e08f09",
+        "filename": "symlinks/qcom-common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32210
+      },
+      "writtenOn": "2024-11-11T11:12:25Z",
+      "side": 0,
+      "message": "So, for example, in qcom-common, could I use $(call inherit-product, hardware/samsung/symlinks/qcom-common.mk) to pull in the common configurations in hardware/qcom/common? , and then layer the Samsung-specific settings on top? This would maintain the mpss_readonly_firmware_symlink difference while reusing shared configurations. Would that approach work?",
+      "parentUuid": "0f4fef9c_679f5023",
+      "revId": "bdf34c8aa4e7b7856f05897baa46e0eaa8cee84b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
