@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2024 The LineageOS Project
+ * Copyright (C) 2024-2025 The LineageOS Project
  *
  * SPDX-License-Identifier: Apache-2.0
  */
@@ -11,6 +11,7 @@
 #include "LegacyHAL.h"
 #include "LockoutTracker.h"
 #include "Session.h"
+#include "OpticalUdfps.h"
 
 using ::aidl::android::hardware::biometrics::fingerprint::ISession;
 using ::aidl::android::hardware::biometrics::fingerprint::ISessionCallback;
@@ -38,6 +39,7 @@ private:
     LegacyHAL mHal;
     LockoutTracker mLockoutTracker;
     FingerprintSensorType mSensorType;
+    std::unique_ptr<OpticalUdfps> mOpticalUdfps;  // Unique pointer for conditional initialization
     int mMaxEnrollmentsPerUser;
     bool mSupportsGestures;
     int uinputFd;
