@@ -52,6 +52,24 @@
       "parentUuid": "1243fed1_0f8c0088",
       "revId": "bdf34c8aa4e7b7856f05897baa46e0eaa8cee84b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0f4fef9c_679f5023",
+        "filename": "symlinks/qcom-common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2024-11-11T11:06:38Z",
+      "side": 0,
+      "message": "I was not saying to move it there. It should stay here, but I was only thinking that this qcom-common.mk could inherit the other one.",
+      "parentUuid": "b9a42a6a_34c3abad",
+      "revId": "bdf34c8aa4e7b7856f05897baa46e0eaa8cee84b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
