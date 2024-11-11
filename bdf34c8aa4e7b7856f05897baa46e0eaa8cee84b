@@ -34,6 +34,24 @@
       "parentUuid": "239edd7c_05363bde",
       "revId": "bdf34c8aa4e7b7856f05897baa46e0eaa8cee84b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b9a42a6a_34c3abad",
+        "filename": "symlinks/qcom-common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32210
+      },
+      "writtenOn": "2024-11-11T11:04:31Z",
+      "side": 0,
+      "message": "I can take a closer look at this change and explore moving it to qcom-common to streamline the inheritance.",
+      "parentUuid": "1243fed1_0f8c0088",
+      "revId": "bdf34c8aa4e7b7856f05897baa46e0eaa8cee84b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
