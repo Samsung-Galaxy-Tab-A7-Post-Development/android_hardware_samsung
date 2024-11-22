@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "646a48af_6558ef69",
+        "filename": "aidl/fingerprint/OpticalUdfps.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 34207
+      },
+      "writtenOn": "2024-11-22T19:59:52Z",
+      "side": 1,
+      "message": "fp_green_circle doesn\u0027t seem to exist on all devices. What does it do? Does it do dimming or does it just turn some pixels green?",
+      "range": {
+        "startLine": 51,
+        "startChar": 0,
+        "endLine": 51,
+        "endChar": 2
+      },
+      "revId": "f19205e11bbe88655b5838125927cec17680cc76",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
