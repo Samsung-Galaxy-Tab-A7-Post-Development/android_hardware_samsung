@@ -46,6 +46,30 @@
       },
       "revId": "f19205e11bbe88655b5838125927cec17680cc76",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0d53a43f_5ecb0bb2",
+        "filename": "aidl/fingerprint/OpticalUdfps.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 34207
+      },
+      "writtenOn": "2024-11-23T08:20:02Z",
+      "side": 1,
+      "message": "So it doesn\u0027t do dimming? Well, my device (r8s) doesn\u0027t have it.",
+      "parentUuid": "ae5e6ff0_b9c3750d",
+      "range": {
+        "startLine": 51,
+        "startChar": 0,
+        "endLine": 51,
+        "endChar": 2
+      },
+      "revId": "f19205e11bbe88655b5838125927cec17680cc76",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
