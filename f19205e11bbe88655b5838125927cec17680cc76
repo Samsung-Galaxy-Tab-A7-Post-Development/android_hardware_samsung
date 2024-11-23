@@ -22,6 +22,30 @@
       },
       "revId": "f19205e11bbe88655b5838125927cec17680cc76",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ae5e6ff0_b9c3750d",
+        "filename": "aidl/fingerprint/OpticalUdfps.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 32210
+      },
+      "writtenOn": "2024-11-23T02:53:36Z",
+      "side": 1,
+      "message": "it turns on the fingerprint mask, which it’s an white mask for my device and it shows for devices that has optical fingerprint. some devices show as green like Samsung a series",
+      "parentUuid": "646a48af_6558ef69",
+      "range": {
+        "startLine": 51,
+        "startChar": 0,
+        "endLine": 51,
+        "endChar": 2
+      },
+      "revId": "f19205e11bbe88655b5838125927cec17680cc76",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
