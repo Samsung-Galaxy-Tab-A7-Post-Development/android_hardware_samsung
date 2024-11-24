@@ -94,6 +94,30 @@
       },
       "revId": "f19205e11bbe88655b5838125927cec17680cc76",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f17821b0_150c2578",
+        "filename": "aidl/fingerprint/OpticalUdfps.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 34207
+      },
+      "writtenOn": "2024-11-24T20:16:58Z",
+      "side": 1,
+      "message": "Alright. I think this should somehow be a conditional though, as not all devices have it.",
+      "parentUuid": "f27549cc_0dca4ffe",
+      "range": {
+        "startLine": 51,
+        "startChar": 0,
+        "endLine": 51,
+        "endChar": 2
+      },
+      "revId": "f19205e11bbe88655b5838125927cec17680cc76",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
