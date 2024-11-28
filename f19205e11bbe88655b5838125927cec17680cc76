@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "bc42d717_d98d0539",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 33569
+      },
+      "writtenOn": "2024-11-28T09:29:08Z",
+      "side": 1,
+      "message": "As Vince said, older devices don\u0027t have this sysfs to enable the mask (I think pre-2021 devices). I had to create my own mask_enable and toggle it, otherwise HBM would not activate.\n\nhttps://github.com/SamsungKonaAOSP/android_kernel_samsung_sm8250/commit/27e1cbe14fa1df2dd08afa68a5aaffe8b07715a7",
+      "revId": "f19205e11bbe88655b5838125927cec17680cc76",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "646a48af_6558ef69",
