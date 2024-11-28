@@ -18,6 +18,47 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d7baea6e_5187ede8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34207
+      },
+      "writtenOn": "2024-11-28T10:31:28Z",
+      "side": 1,
+      "message": "I think samsung has an ioctl for enabling the mask on exynos devices.\n\nPerhaps we could somehow make these nodes customizable?",
+      "parentUuid": "bc42d717_d98d0539",
+      "revId": "f19205e11bbe88655b5838125927cec17680cc76",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4727d253_5da00d02",
+        "filename": "aidl/fingerprint/OpticalUdfps.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 34207
+      },
+      "writtenOn": "2024-11-28T10:31:28Z",
+      "side": 1,
+      "message": "i thought the fod_rect was for the tsp to report the fod press\n\nmoreover, i think we only need to set this once every boot.",
+      "range": {
+        "startLine": 100,
+        "startChar": 44,
+        "endLine": 100,
+        "endChar": 56
+      },
+      "revId": "f19205e11bbe88655b5838125927cec17680cc76",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "646a48af_6558ef69",
