@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5ec3b08e_bbbb7762",
+        "filename": "aidl/sensors/include/waitForMCUInit.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2024-12-01T11:55:27Z",
+      "side": 1,
+      "message": "not sure why this comment exists - remove?",
+      "revId": "667e891d1fedc093253cc8d6313ac7479ac6ec26",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
