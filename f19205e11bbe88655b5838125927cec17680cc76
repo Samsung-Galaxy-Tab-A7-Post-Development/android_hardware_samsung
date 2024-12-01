@@ -59,6 +59,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "88b1a089_07943521",
+        "filename": "aidl/fingerprint/OpticalUdfps.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 32210
+      },
+      "writtenOn": "2024-12-01T19:54:20Z",
+      "side": 1,
+      "message": "I will have it set for per boot and will make it customizable.",
+      "parentUuid": "4727d253_5da00d02",
+      "range": {
+        "startLine": 100,
+        "startChar": 44,
+        "endLine": 100,
+        "endChar": 56
+      },
+      "revId": "f19205e11bbe88655b5838125927cec17680cc76",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "646a48af_6558ef69",
