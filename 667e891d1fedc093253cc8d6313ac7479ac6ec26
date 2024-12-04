@@ -16,6 +16,24 @@
       "message": "not sure why this comment exists - remove?",
       "revId": "667e891d1fedc093253cc8d6313ac7479ac6ec26",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "444ff818_6bc5e20d",
+        "filename": "aidl/sensors/include/waitForMCUInit.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 34207
+      },
+      "writtenOn": "2024-12-04T11:21:29Z",
+      "side": 1,
+      "message": "don\u0027t know either - i guess i\u0027ll remove it then",
+      "parentUuid": "5ec3b08e_bbbb7762",
+      "revId": "667e891d1fedc093253cc8d6313ac7479ac6ec26",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
