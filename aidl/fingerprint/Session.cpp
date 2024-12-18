@@ -16,6 +16,7 @@
 #include <dirent.h>
 #include <endian.h>
 #include <thread>
+#include <fstream>
 
 using namespace ::android::fingerprint::samsung;
 using namespace ::std::chrono_literals;
@@ -40,6 +41,15 @@ Session::Session(LegacyHAL hal, int userId, std::shared_ptr<ISessionCallback> cb
       mLockoutTracker(lockoutTracker),
       mUserId(userId),
       mCb(cb) {
+
+    std::string sensorTypeProp = FingerprintHalProperties::type().value_or("");
+    if (sensorTypeProp == "udfps_optical" || sensorTypeProp == "udfps") {
+        mUdfpsHandler = std::make_unique<UdfpsHandler>();
+        LOG(INFO) << "UdfpsHandler initialized in Session";
+        std::string fod_rect = FingerprintHalProperties::rectangular_sensor_location().value_or("");
+        mUdfpsHandler->setFodRect(fod_rect);
+    }
+
     mDeathRecipient = AIBinder_DeathRecipient_new(onClientDeath);
 
     char filename[64];
@@ -59,6 +69,10 @@ ndk::ScopedAStatus Session::generateChallenge() {
 ndk::ScopedAStatus Session::revokeChallenge(int64_t challenge) {
     LOG(INFO) << "revokeChallenge";
 
+    if (mUdfpsHandler) {
+        mUdfpsHandler->setFodPress(false);
+    }
+
     mHal.ss_fingerprint_post_enroll();
     mCb->onChallengeRevoked(challenge);
 
@@ -68,6 +82,10 @@ ndk::ScopedAStatus Session::revokeChallenge(int64_t challenge) {
 ndk::ScopedAStatus Session::enroll(const HardwareAuthToken& hat,
                                    std::shared_ptr<ICancellationSignal>* out) {
     LOG(INFO) << "enroll";
+
+    if (mUdfpsHandler) {
+        mUdfpsHandler->setFodPress(true);
+    }
 
     if (FingerprintHalProperties::force_calibrate().value_or(false)) {
         mCaptureReady = false;
@@ -96,6 +114,10 @@ ndk::ScopedAStatus Session::enroll(const HardwareAuthToken& hat,
 ndk::ScopedAStatus Session::authenticate(int64_t operationId,
                                          std::shared_ptr<ICancellationSignal>* out) {
     LOG(INFO) << "authenticate";
+
+    if (mUdfpsHandler) {
+        mUdfpsHandler->setFodPress(true);
+    }
 
     int32_t error = mHal.ss_fingerprint_authenticate(operationId, mUserId);
     if (error) {
@@ -180,6 +202,10 @@ ndk::ScopedAStatus Session::invalidateAuthenticatorId() {
 
 ndk::ScopedAStatus Session::resetLockout(const HardwareAuthToken& /*hat*/) {
     LOG(INFO) << "resetLockout";
+
+    if (mUdfpsHandler) {
+        mUdfpsHandler->setFodPress(false);
+    }
 
     clearLockout(true);
     mIsLockoutTimerAborted = true;
@@ -432,6 +458,9 @@ void Session::notify(const fingerprint_msg_t* msg) {
                 HardwareAuthToken authToken;
                 translate(hat, authToken);
 
+                if (mUdfpsHandler) {
+                    mUdfpsHandler->setFodPress(false);
+                }
                 mCb->onAuthenticationSucceeded(msg->data.authenticated.finger.fid, authToken);
                 mLockoutTracker.reset(true);
             } else {
