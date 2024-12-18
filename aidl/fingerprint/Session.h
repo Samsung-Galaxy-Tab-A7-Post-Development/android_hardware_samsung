@@ -13,6 +13,7 @@
 
 #include "LegacyHAL.h"
 #include "LockoutTracker.h"
+#include "UdfpsHandler.h"
 
 #define FINGERPRINT_DATA_DIR "/data/vendor/biometrics/fp/User_%d/"
 
@@ -76,6 +77,7 @@ public:
 private:
     LegacyHAL mHal;
     LockoutTracker mLockoutTracker;
+    std::unique_ptr<UdfpsHandler> mUdfpsHandler;
     bool mClosed = false;
     bool mCaptureReady = false;
 
