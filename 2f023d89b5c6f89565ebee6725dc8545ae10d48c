@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "acc6b5ab_e1093f92",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2024-12-18T16:35:05Z",
+      "side": 1,
+      "message": "Actually, Xiaomi is moving the UdfsEntension out of this folder. See: https://review.lineageos.org/c/LineageOS/android_hardware_xiaomi/+/405259. Please do it like that, but of course you don\u0027t need to pick that change on top. Just update this one.",
+      "revId": "2f023d89b5c6f89565ebee6725dc8545ae10d48c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
