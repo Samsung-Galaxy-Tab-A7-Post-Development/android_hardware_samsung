@@ -16,6 +16,23 @@
       "message": "This breaks build for pixels (tangorpro) when this repo is synced.",
       "revId": "dca8ebaf5772fc19de965fceddb510ac605a9e38",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "85484bf7_65acbe4f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-12-21T02:23:39Z",
+      "side": 1,
+      "message": "```error: hardware/samsung/fingerprint/Android.bp:7:1: dependency \"device_kernel_headers\" of \"libudfps_extension.samsung\" missing variant:\n  os:android\navailable variants:\n  os:android,image:recovery,arch:arm64_armv8-2a_cortex-a55\n  os:android,image:vendor,arch:arm64_armv8-2a_cortex-a55\n  os:android,image:vendor,arch:arm_armv8-a\nfatal errors encountered\n21:13:08 soong bootstrap failed with: exit status 1```",
+      "revId": "dca8ebaf5772fc19de965fceddb510ac605a9e38",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
