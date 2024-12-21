@@ -50,6 +50,23 @@
       "message": "I found the same solution works for bluejay.",
       "revId": "c4c9b3520cf275ed23af8dab278c2d0e67ba7a20",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a86147f8_6bab3ad2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 17401
+      },
+      "writtenOn": "2024-12-21T02:39:29Z",
+      "side": 1,
+      "message": "sorry, meant https://review.lineageos.org/c/LineageOS/android_build/+/401481 + https://review.lineageos.org/c/LineageOS/android_build_soong/+/401511",
+      "revId": "c4c9b3520cf275ed23af8dab278c2d0e67ba7a20",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
