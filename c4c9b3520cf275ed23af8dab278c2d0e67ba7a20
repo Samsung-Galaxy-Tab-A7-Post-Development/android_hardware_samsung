@@ -33,6 +33,23 @@
       "message": "given https://review.lineageos.org/c/LineageOS/android_build/+/401479/4 this revert should be fine, i fail to see why thos was changed to begin with",
       "revId": "c4c9b3520cf275ed23af8dab278c2d0e67ba7a20",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9a4f6e63_8abd50df",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 2644
+      },
+      "writtenOn": "2024-12-21T02:37:29Z",
+      "side": 1,
+      "message": "I found the same solution works for bluejay.",
+      "revId": "c4c9b3520cf275ed23af8dab278c2d0e67ba7a20",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
