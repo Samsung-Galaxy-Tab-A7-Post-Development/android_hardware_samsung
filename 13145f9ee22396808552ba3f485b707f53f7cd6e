@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bca73b7c_d4fc23e1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-12-22T21:19:45Z",
+      "side": 1,
+      "message": "i\u0027m ok with it (assuming it\u0027s tested and works)",
+      "revId": "13145f9ee22396808552ba3f485b707f53f7cd6e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
