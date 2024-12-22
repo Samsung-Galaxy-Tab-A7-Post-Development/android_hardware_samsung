@@ -16,6 +16,23 @@
       "message": "small concern: is every device using this hal exposing the sysfs node? if not this change would cause it to loop forever, in that case this should be guarded behind a flag",
       "revId": "cc651fe1822ffaeb410ff5defd5112a24ec7947e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6c9299e7_34e0fa43",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-12-22T09:49:08Z",
+      "side": 1,
+      "message": "would make more sense to have a wrapper hal, like sensors.ssc_custom_flag in hardware/oplus.",
+      "revId": "cc651fe1822ffaeb410ff5defd5112a24ec7947e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
