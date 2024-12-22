@@ -51,3 +51,9 @@ cc_binary {
         "libaidlcommonsupport",
     ],
 }
+
+cc_library_shared {
+    name: "sensors.wait_for_mcu_init",
+    srcs: ["waitForMCUInit.cpp"],
+    vendor: true,
+}
