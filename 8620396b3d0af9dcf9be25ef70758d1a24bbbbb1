@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "914ad40e_607ecf9f",
+        "filename": "aidl/sensors/Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-12-22T19:02:24Z",
+      "side": 1,
+      "message": "should probably start with sensors.sensorhub_ since that\u0027s what it\u0027s wrapping.",
+      "revId": "8620396b3d0af9dcf9be25ef70758d1a24bbbbb1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
