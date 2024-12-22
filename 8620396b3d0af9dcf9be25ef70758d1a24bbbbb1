@@ -16,6 +16,24 @@
       "message": "should probably start with sensors.sensorhub_ since that\u0027s what it\u0027s wrapping.",
       "revId": "8620396b3d0af9dcf9be25ef70758d1a24bbbbb1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5e720ad4_7d3e5ac9",
+        "filename": "aidl/sensors/Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 34207
+      },
+      "writtenOn": "2024-12-22T19:30:06Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "914ad40e_607ecf9f",
+      "revId": "8620396b3d0af9dcf9be25ef70758d1a24bbbbb1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
