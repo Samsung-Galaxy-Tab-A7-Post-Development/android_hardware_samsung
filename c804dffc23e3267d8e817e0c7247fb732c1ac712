@@ -282,6 +282,24 @@
       "message": "like Vince mentioned, you might be able use some soong config magic to allow that to be swapped out.\n\nthat\u0027s the only way I see it being viable to use device kernel headers.",
       "revId": "c804dffc23e3267d8e817e0c7247fb732c1ac712",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3b1ced67_26c023e4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2024-12-24T22:49:30Z",
+      "side": 1,
+      "message": "https://review.lineageos.org/q/Ibbae77a92f5f96da92213d0a0078867ddeeeaf04 and https://review.lineageos.org/q/I71b891928a13771c176adc0eaa79b46503cb176f",
+      "parentUuid": "8f04eaa5_af6870fd",
+      "revId": "c804dffc23e3267d8e817e0c7247fb732c1ac712",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
