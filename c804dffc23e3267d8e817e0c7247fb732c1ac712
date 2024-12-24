@@ -247,6 +247,24 @@
       "parentUuid": "4985044c_9ad51afd",
       "revId": "c804dffc23e3267d8e817e0c7247fb732c1ac712",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e183232d_45effa28",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-12-24T22:37:57Z",
+      "side": 1,
+      "message": "Yeah, nah. If other ROMs want to use this repo there\u0027s more than 1 commit needed, just pick generated kernel headers at that point...",
+      "parentUuid": "a663432e_94dc3a89",
+      "revId": "c804dffc23e3267d8e817e0c7247fb732c1ac712",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
