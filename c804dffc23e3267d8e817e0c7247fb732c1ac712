@@ -140,6 +140,24 @@
       "parentUuid": "d7d8fd51_c66c0770",
       "revId": "c804dffc23e3267d8e817e0c7247fb732c1ac712",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "08f9e6b9_d078d630",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34207
+      },
+      "writtenOn": "2024-12-24T17:59:28Z",
+      "side": 1,
+      "message": "A way to fix this mess: set the value with soong configs. No need to use any kernel headers this way.",
+      "parentUuid": "d7d8fd51_c66c0770",
+      "revId": "c804dffc23e3267d8e817e0c7247fb732c1ac712",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
