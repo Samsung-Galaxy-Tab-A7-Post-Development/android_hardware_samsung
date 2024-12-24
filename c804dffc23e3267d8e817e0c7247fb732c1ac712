@@ -211,6 +211,24 @@
       "message": "I fail to see why you need device_kernel_headers here instead of generated_kernel_headers",
       "revId": "c804dffc23e3267d8e817e0c7247fb732c1ac712",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a663432e_94dc3a89",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 33569
+      },
+      "writtenOn": "2024-12-24T18:31:40Z",
+      "side": 1,
+      "message": "Because even though this repository is for LineageOS, it also serves as the main repo for non-LineageOS based sources and I want to maintain its compatibility as much as possible. So I\u0027m in favor of keeping it decommonized in device trees, or maybe in samsung_qcom-common like Nolen suggested if using device_kernel_headers is not possible.",
+      "parentUuid": "be912d04_c19d4d9c",
+      "revId": "c804dffc23e3267d8e817e0c7247fb732c1ac712",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
