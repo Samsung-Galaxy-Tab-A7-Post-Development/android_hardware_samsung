@@ -87,6 +87,24 @@
       "message": "How does this conflict with pixels exactly?",
       "revId": "c804dffc23e3267d8e817e0c7247fb732c1ac712",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "11b2dd14_4ad52e38",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-12-24T17:50:46Z",
+      "side": 1,
+      "message": "probably complaining about AOSP not having \"generated_kernel_headers\" and thus triggering build error, but again I see no reason why *we* should care about that given that this is LineageOS upstream.",
+      "parentUuid": "964f2b48_e221b3da",
+      "revId": "c804dffc23e3267d8e817e0c7247fb732c1ac712",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
