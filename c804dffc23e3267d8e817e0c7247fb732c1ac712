@@ -229,6 +229,24 @@
       "parentUuid": "be912d04_c19d4d9c",
       "revId": "c804dffc23e3267d8e817e0c7247fb732c1ac712",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d4ce9528_ce76b6ac",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-12-24T22:36:48Z",
+      "side": 1,
+      "message": "luk, let me rephrase, I don\u0027t mean _this is currently broken_ - I thought it was in reference to this revert: https://review.lineageos.org/c/LineageOS/android_hardware_samsung/+/412161?usp\u003dsearch (which did break things).\n\ngenerated kernel headers is fine.",
+      "parentUuid": "4985044c_9ad51afd",
+      "revId": "c804dffc23e3267d8e817e0c7247fb732c1ac712",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
