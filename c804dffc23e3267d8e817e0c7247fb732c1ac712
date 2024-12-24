@@ -16,6 +16,24 @@
       "message": "\"We should keep \"Samsung\" specific changes in here, not \"Qualcomm Samsung\".\"\n\ni quite frankly disagree, there are samsung phones with qcom soc\u0027s which use this, if no exynos phone uses it then dont build it, if exynos ever needs an extension we can rename them, removing it here solves nothing",
       "revId": "c804dffc23e3267d8e817e0c7247fb732c1ac712",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c11a451b_9370e0f4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34207
+      },
+      "writtenOn": "2024-12-24T17:09:44Z",
+      "side": 1,
+      "message": "The one and only issue is that, once again, this is ruining the compatibility with AOSP. Because, for some reason, you want to build for pixels with this repo synced.",
+      "parentUuid": "c980db5c_dc643627",
+      "revId": "c804dffc23e3267d8e817e0c7247fb732c1ac712",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
