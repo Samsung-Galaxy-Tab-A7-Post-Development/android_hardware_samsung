@@ -34,6 +34,24 @@
       "parentUuid": "c980db5c_dc643627",
       "revId": "c804dffc23e3267d8e817e0c7247fb732c1ac712",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "794f91e8_523b8897",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 17401
+      },
+      "writtenOn": "2024-12-24T17:15:21Z",
+      "side": 1,
+      "message": "then that problem should be addressed and solved instead of removing stuff from the repo with the reasoning \"only qualcomm needs it\", this repo is for all samsung devices wether they are qcom or not, so the hal stays and whatever breaks needs to fixed instead, the code is here to de-duplicate it as it is common across presumable multiple samsung devices",
+      "parentUuid": "c11a451b_9370e0f4",
+      "revId": "c804dffc23e3267d8e817e0c7247fb732c1ac712",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
