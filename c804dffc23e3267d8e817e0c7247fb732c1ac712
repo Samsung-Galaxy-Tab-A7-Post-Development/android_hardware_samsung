@@ -176,6 +176,24 @@
       "parentUuid": "951c5c7e_4cb81cad",
       "revId": "c804dffc23e3267d8e817e0c7247fb732c1ac712",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4985044c_9ad51afd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-12-24T18:00:50Z",
+      "side": 1,
+      "message": "there\u0027s nothing to fix, this works properly as is in LineageOS and that\u0027s all we care about here.",
+      "parentUuid": "08f9e6b9_d078d630",
+      "revId": "c804dffc23e3267d8e817e0c7247fb732c1ac712",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
