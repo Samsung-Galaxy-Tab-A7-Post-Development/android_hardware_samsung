@@ -105,6 +105,23 @@
       "parentUuid": "964f2b48_e221b3da",
       "revId": "c804dffc23e3267d8e817e0c7247fb732c1ac712",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d7d8fd51_c66c0770",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-12-24T17:58:06Z",
+      "side": 1,
+      "message": "it isn\u0027t aosp compatible that is the issue, device_kernel_headers doesn\u0027t exist for pixels and other devices, hence, breaks them.\n\nit isn\u0027t going to be an issue for build servers, but for those of us that support more than 1 device, it\u0027s extremely annoying.\n\nif there\u0027s absolutely no way to fix this, revive device/samsung/qcom-common maybe?\n\nbut there has to be a way to fix this",
+      "revId": "c804dffc23e3267d8e817e0c7247fb732c1ac712",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
