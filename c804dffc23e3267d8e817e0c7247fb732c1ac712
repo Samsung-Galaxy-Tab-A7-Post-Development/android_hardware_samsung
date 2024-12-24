@@ -300,6 +300,23 @@
       "parentUuid": "8f04eaa5_af6870fd",
       "revId": "c804dffc23e3267d8e817e0c7247fb732c1ac712",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "56972029_c82087d9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-12-24T23:28:24Z",
+      "side": 1,
+      "message": "With Stricted on this one. No need to remove this, generated_kernel_headers is fine, other ROMs can either put up with picking generated, or if they\u0027re prebuilt use the solutions CDE talks about.",
+      "revId": "c804dffc23e3267d8e817e0c7247fb732c1ac712",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
