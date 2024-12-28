@@ -352,6 +352,24 @@
       "parentUuid": "96bddb75_80a29968",
       "revId": "c804dffc23e3267d8e817e0c7247fb732c1ac712",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ae5b5733_b48cd714",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34207
+      },
+      "writtenOn": "2024-12-28T22:13:25Z",
+      "side": 1,
+      "message": "But exynos is mostly used in samsungs, meanwhile qualcomm isn\u0027t. And i made 2 other arguments besides that.",
+      "parentUuid": "409f5b74_eb630c4d",
+      "revId": "c804dffc23e3267d8e817e0c7247fb732c1ac712",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
