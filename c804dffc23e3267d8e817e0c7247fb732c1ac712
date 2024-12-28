@@ -334,6 +334,24 @@
       "message": "This is qcom specific. It would take very little work to make the udfps extension generic. It\u0027s also not a treble compliant solution.",
       "revId": "c804dffc23e3267d8e817e0c7247fb732c1ac712",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "409f5b74_eb630c4d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2024-12-28T21:00:55Z",
+      "side": 1,
+      "message": "This repo also contains exynos stuff. It\u0027s perfectly fine to have qcom stuff as well.",
+      "parentUuid": "96bddb75_80a29968",
+      "revId": "c804dffc23e3267d8e817e0c7247fb732c1ac712",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
