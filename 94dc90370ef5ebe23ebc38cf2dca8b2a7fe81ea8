@@ -1,4 +1,22 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ea381636_9f7d7bf1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34207
+      },
+      "writtenOn": "2024-12-28T21:30:59Z",
+      "side": 1,
+      "message": "I will abandon my patch if i feel the need to do so.\n\nThe original patch will not be reopened.",
+      "revId": "94dc90370ef5ebe23ebc38cf2dca8b2a7fe81ea8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ],
   "submitRequirementResults": []
 }
