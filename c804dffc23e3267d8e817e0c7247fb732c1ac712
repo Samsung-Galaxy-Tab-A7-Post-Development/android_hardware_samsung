@@ -317,6 +317,23 @@
       "message": "With Stricted on this one. No need to remove this, generated_kernel_headers is fine, other ROMs can either put up with picking generated, or if they\u0027re prebuilt use the solutions CDE talks about.",
       "revId": "c804dffc23e3267d8e817e0c7247fb732c1ac712",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "96bddb75_80a29968",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34207
+      },
+      "writtenOn": "2024-12-28T20:51:28Z",
+      "side": 1,
+      "message": "This is qcom specific. It would take very little work to make the udfps extension generic. It\u0027s also not a treble compliant solution.",
+      "revId": "c804dffc23e3267d8e817e0c7247fb732c1ac712",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
