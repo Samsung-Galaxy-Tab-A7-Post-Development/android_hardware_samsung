@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f097954c_8a96f4a1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34207
+      },
+      "writtenOn": "2024-12-29T12:06:27Z",
+      "side": 1,
+      "message": "It won\u0027t be used for exynos devices (probably), but this still works around the kernel headers dependency.",
+      "revId": "e05b5c2807a7b8925542e950aa06a8de80228d04",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
