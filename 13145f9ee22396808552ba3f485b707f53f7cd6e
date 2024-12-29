@@ -16,6 +16,24 @@
       "message": "i\u0027m ok with it (assuming it\u0027s tested and works)",
       "revId": "13145f9ee22396808552ba3f485b707f53f7cd6e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "36615c1b_c510ccb8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34207
+      },
+      "writtenOn": "2024-12-29T12:01:54Z",
+      "side": 1,
+      "message": "If rfind doesn\u0027t find a match, it returns std::string::npos, therefore it will just break no matter what. This is fixed in the new ps thanks to @tim@linux4.de.",
+      "parentUuid": "bca73b7c_d4fc23e1",
+      "revId": "13145f9ee22396808552ba3f485b707f53f7cd6e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
