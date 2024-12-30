@@ -70,6 +70,24 @@
       "parentUuid": "f1ac021e_b0d3fa1e",
       "revId": "ad61fd80014fd9417de86a1d0f9304fec2511ff6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "27f8bbdf_9eb06711",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-12-30T14:55:42Z",
+      "side": 1,
+      "message": "of course, that\u0027s why I specified all shipping devices that currently use it and not set the soong config for it.",
+      "parentUuid": "401afdfc_4ddb5238",
+      "revId": "ad61fd80014fd9417de86a1d0f9304fec2511ff6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
