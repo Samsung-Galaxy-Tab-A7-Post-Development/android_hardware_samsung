@@ -105,6 +105,24 @@
       "message": "That would be only r8q and a71, no?\n\nping: @ata.kaner03@gmail.com @hakamelassouad@gmail.com",
       "revId": "ad61fd80014fd9417de86a1d0f9304fec2511ff6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0d87435b_e965fb21",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34207
+      },
+      "writtenOn": "2024-12-30T14:58:17Z",
+      "side": 1,
+      "message": "No devices currently use it. Lineage 22 isn\u0027t out yet, and it\u0027s only present on the lineage-22 branches.",
+      "parentUuid": "27f8bbdf_9eb06711",
+      "revId": "ad61fd80014fd9417de86a1d0f9304fec2511ff6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
