@@ -195,6 +195,24 @@
       "parentUuid": "7206d143_6d434f5b",
       "revId": "ad61fd80014fd9417de86a1d0f9304fec2511ff6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "614843ce_7b698d53",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-12-30T15:06:47Z",
+      "side": 1,
+      "message": "GitHub search doesn\u0027t work for non default branches, and nowadays it\u0027s worse than ever.",
+      "parentUuid": "4b5e60d6_b1363efc",
+      "revId": "ad61fd80014fd9417de86a1d0f9304fec2511ff6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
