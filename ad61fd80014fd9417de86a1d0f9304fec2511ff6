@@ -52,6 +52,24 @@
       "parentUuid": "ba839870_4f30d0b3",
       "revId": "ad61fd80014fd9417de86a1d0f9304fec2511ff6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "401afdfc_4ddb5238",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34207
+      },
+      "writtenOn": "2024-12-30T14:54:05Z",
+      "side": 1,
+      "message": "No. Just no. You\u0027re not going to compile the samsung udfps extension for every device you ship. The same scenario would occur with the older setup if you didn\u0027t have FOD_PRESSED_LAYER_DEFINED in the kernel headers. If you want to use this one, you\u0027ll look at the blueprint file or devices that use it and realize you have to set a soong config. If you don\u0027t want to use it, you ignore it and it won\u0027t bother you. It won\u0027t just compile UdfpsExtension.cpp for devices that don\u0027t request it, that\u0027s just not how it works.",
+      "parentUuid": "f1ac021e_b0d3fa1e",
+      "revId": "ad61fd80014fd9417de86a1d0f9304fec2511ff6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
