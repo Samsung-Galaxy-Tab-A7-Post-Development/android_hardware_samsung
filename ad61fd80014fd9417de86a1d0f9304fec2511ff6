@@ -34,6 +34,24 @@
       "parentUuid": "73450fd7_2ecef7c1",
       "revId": "ad61fd80014fd9417de86a1d0f9304fec2511ff6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f1ac021e_b0d3fa1e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-12-30T14:51:13Z",
+      "side": 1,
+      "message": "\u003ebut the only resultt of that is the compiler erroring out.\n\nexactly. That\u0027s why I said that all shipping devices that didn\u0027t also set the soong config for it will be broken.",
+      "parentUuid": "ba839870_4f30d0b3",
+      "revId": "ad61fd80014fd9417de86a1d0f9304fec2511ff6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
