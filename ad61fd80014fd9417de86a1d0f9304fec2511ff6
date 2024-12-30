@@ -266,6 +266,24 @@
       "parentUuid": "b45db77c_e93e0a9d",
       "revId": "ad61fd80014fd9417de86a1d0f9304fec2511ff6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9240dd56_964fe64a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26928
+      },
+      "writtenOn": "2024-12-30T16:25:15Z",
+      "side": 1,
+      "message": "it passes now, ig I can move to hw/samsung/ extension",
+      "parentUuid": "17564c8e_e946980f",
+      "revId": "ad61fd80014fd9417de86a1d0f9304fec2511ff6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
