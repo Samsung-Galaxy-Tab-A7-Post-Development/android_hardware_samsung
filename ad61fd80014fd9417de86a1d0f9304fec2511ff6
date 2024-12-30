@@ -231,6 +231,23 @@
       "parentUuid": "614843ce_7b698d53",
       "revId": "ad61fd80014fd9417de86a1d0f9304fec2511ff6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b45db77c_e93e0a9d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26928
+      },
+      "writtenOn": "2024-12-30T15:57:40Z",
+      "side": 1,
+      "message": "I got this error:\nhardware/samsung/fingerprint/UdfpsExtension.cpp:16:14: error: use of undeclared identifier \u0027FOD_PRESSED_LAYER_ZORD\nER\u0027\n   16 |         z |\u003d FOD_PRESSED_LAYER_ZORDER;\n      |              ^\n1 error generated.\n\nUnless I need some changes on kernel side(?)",
+      "revId": "ad61fd80014fd9417de86a1d0f9304fec2511ff6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
