@@ -248,6 +248,24 @@
       "message": "I got this error:\nhardware/samsung/fingerprint/UdfpsExtension.cpp:16:14: error: use of undeclared identifier \u0027FOD_PRESSED_LAYER_ZORD\nER\u0027\n   16 |         z |\u003d FOD_PRESSED_LAYER_ZORDER;\n      |              ^\n1 error generated.\n\nUnless I need some changes on kernel side(?)",
       "revId": "ad61fd80014fd9417de86a1d0f9304fec2511ff6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "17564c8e_e946980f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34207
+      },
+      "writtenOn": "2024-12-30T16:01:05Z",
+      "side": 1,
+      "message": "Okay, you proved your point, luk. \n\nThis way, a soong config has to be set instead of defining in kernel headers. In boardconfig:\n\n$(call soong_config_set,samsung_udfps,dimlayerzorder,\u003cyour value here\u003e)\n\nThis value may even be hardcoded in the future.",
+      "parentUuid": "b45db77c_e93e0a9d",
+      "revId": "ad61fd80014fd9417de86a1d0f9304fec2511ff6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
