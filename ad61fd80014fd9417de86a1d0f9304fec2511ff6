@@ -213,6 +213,24 @@
       "parentUuid": "4b5e60d6_b1363efc",
       "revId": "ad61fd80014fd9417de86a1d0f9304fec2511ff6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3faf6b4e_d30f8464",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34207
+      },
+      "writtenOn": "2024-12-30T15:09:46Z",
+      "side": 1,
+      "message": "Yes, so i thought. See my other point then. An even simpler idea would be setting a default value.",
+      "parentUuid": "614843ce_7b698d53",
+      "revId": "ad61fd80014fd9417de86a1d0f9304fec2511ff6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
