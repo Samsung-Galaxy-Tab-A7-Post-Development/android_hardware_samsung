@@ -33,6 +33,24 @@
       "message": "Let me just run bpfix first.",
       "revId": "1d44392b04e64885ebdbdf798d8abcf1d5697306",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a941571b_a7e8b1bc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34207
+      },
+      "writtenOn": "2024-12-30T14:27:38Z",
+      "side": 1,
+      "message": "I already ran bpfmt on my ps.",
+      "parentUuid": "849725e8_e10eff2f",
+      "revId": "1d44392b04e64885ebdbdf798d8abcf1d5697306",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
