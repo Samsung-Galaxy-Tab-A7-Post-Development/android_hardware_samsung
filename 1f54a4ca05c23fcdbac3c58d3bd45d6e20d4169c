@@ -16,6 +16,24 @@
       "message": "itym spatial?",
       "revId": "1f54a4ca05c23fcdbac3c58d3bd45d6e20d4169c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bb0d8d80_ad3de7e6",
+        "filename": "dap/res/values/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-01-12T23:39:43Z",
+      "side": 1,
+      "message": "https://www.dictionary.com/browse/spacial",
+      "parentUuid": "ef046917_dc6fe078",
+      "revId": "1f54a4ca05c23fcdbac3c58d3bd45d6e20d4169c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
