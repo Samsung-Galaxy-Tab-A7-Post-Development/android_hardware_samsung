@@ -1,0 +1,5 @@
+cc_library_shared {
+    name: "libsec-ril.wrapper",
+    srcs: ["SecRil.cpp"],
+    vendor: true,
+}
