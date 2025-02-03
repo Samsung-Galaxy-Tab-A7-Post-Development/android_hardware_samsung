@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "793bf856_35369c91",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32210
+      },
+      "writtenOn": "2025-02-03T09:44:46Z",
+      "side": 1,
+      "message": "Exynos would have a different path to trigger hbm. Please Refer to your device\u0027s Kernel Source to where it could be defined.",
+      "parentUuid": "06183489_9a83ed72",
+      "revId": "e42a5086dda70a250baa523d30515d329d600f28",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7d886a2f_ea751bdd",
