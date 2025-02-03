@@ -24,6 +24,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "e2457f2d_4a08e48b",
+        "filename": "aidl/fingerprint/OpticalUdfps.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 32210
+      },
+      "writtenOn": "2025-02-03T09:15:05Z",
+      "side": 1,
+      "message": "I will Set it to min 319, is this okay?\n\nreturn std::min(std::max(static_cast\u003cint\u003e(displayBrightness * 0.607), 1), 319);\nand yes by default its at 0",
+      "parentUuid": "7d886a2f_ea751bdd",
+      "range": {
+        "startLine": 57,
+        "startChar": 0,
+        "endLine": 57,
+        "endChar": 30
+      },
+      "revId": "e42a5086dda70a250baa523d30515d329d600f28",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "096b690c_42d1cb77",
@@ -54,6 +78,30 @@
       "writtenOn": "2025-02-03T08:50:08Z",
       "side": 1,
       "message": "not possible, once again",
+      "range": {
+        "startLine": 94,
+        "startChar": 0,
+        "endLine": 97,
+        "endChar": 5
+      },
+      "revId": "e42a5086dda70a250baa523d30515d329d600f28",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4e7bece1_477c158a",
+        "filename": "aidl/fingerprint/OpticalUdfps.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 32210
+      },
+      "writtenOn": "2025-02-03T09:15:05Z",
+      "side": 1,
+      "message": "I will remove this.",
+      "parentUuid": "8c24b891_ad674076",
       "range": {
         "startLine": 94,
         "startChar": 0,
