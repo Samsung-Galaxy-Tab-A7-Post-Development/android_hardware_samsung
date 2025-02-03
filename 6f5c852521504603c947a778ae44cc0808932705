@@ -16,6 +16,24 @@
       "message": "this doesn\u0027t look like it should be part of this change",
       "revId": "6f5c852521504603c947a778ae44cc0808932705",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "53525451_b54246b7",
+        "filename": "fingerprint/Android.bp",
+        "patchSetId": 5
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 32210
+      },
+      "writtenOn": "2025-02-03T06:28:58Z",
+      "side": 1,
+      "message": "Oops it was a mistake",
+      "parentUuid": "c71aacfb_1a0de68c",
+      "revId": "6f5c852521504603c947a778ae44cc0808932705",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
