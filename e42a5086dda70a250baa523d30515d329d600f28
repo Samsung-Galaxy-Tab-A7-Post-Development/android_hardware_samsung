@@ -3,6 +3,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "06183489_9a83ed72",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34676
+      },
+      "writtenOn": "2025-02-03T09:42:51Z",
+      "side": 1,
+      "message": "What about exynos? Exynos does not have dimming, so only set display brightness to max.",
+      "revId": "e42a5086dda70a250baa523d30515d329d600f28",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "7d886a2f_ea751bdd",
         "filename": "aidl/fingerprint/OpticalUdfps.cpp",
         "patchSetId": 1
