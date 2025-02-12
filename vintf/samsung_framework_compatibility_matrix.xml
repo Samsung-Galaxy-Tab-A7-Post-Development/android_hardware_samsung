@@ -12,6 +12,23 @@
         </interface>
     </hal>
     <hal format="hidl" optional="true">
+        <name>vendor.samsung.hardware.biometrics.face</name>
+        <version>3.0</version>
+        <version>2.0</version>
+        <interface>
+            <name>ISehBiometricsFace</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.samsung.hardware.biometrics.fingerprint</name>
+        <version>3.0</version>
+        <interface>
+            <name>ISehBiometricsFingerprint</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
         <name>vendor.samsung.hardware.bluetooth</name>
         <version>2.0</version>
         <interface>
@@ -206,6 +223,15 @@
             <instance>default</instance>
         </interface>
     </hal>
+    <hal format="aidl" optional="true">
+        <name>vendor.samsung.hardware.snap</name>
+        <version>1-2</version>
+        <interface>
+            <name>ISehSnap</name>
+            <instance>default</instance>
+            <instance>secsnap</instance>
+        </interface>
+    </hal>
     <hal format="hidl" optional="true">
         <name>vendor.samsung.hardware.snap</name>
         <version>1.1</version>
@@ -278,6 +304,13 @@
             <instance>default</instance>
         </interface>
     </hal>
+    <hal format="aidl" optional="true">
+        <name>vendor.samsung.hardware.wifi.nan</name>
+        <interface>
+            <name>IWifiVendorNan</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
     <hal format="hidl" optional="true">
         <name>vendor.samsung.hardware.wifi.supplicant</name>
         <version>2.0</version>
@@ -291,6 +324,44 @@
         <version>2.0</version>
         <interface>
             <name>ISehWifi</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.samsung.hardware.security.drk</name>
+        <version>2.0</version>
+        <interface>
+            <name>ISehDrk</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl" optional="true">
+        <name>vendor.samsung.hardware.security.drk</name>
+        <interface>
+            <name>ISehDrk</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl" optional="true">
+        <name>vendor.samsung.hardware.security.fkeymaster</name>
+        <interface>
+            <name>ISehFkeymaster</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" override="true">
+        <name>vendor.samsung.hardware.security.skpm</name>
+        <version>1.0</version>
+        <interface>
+            <name>ISehSkpm</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.samsung.hardware.security.wsm</name>
+        <version>1.0</version>
+        <interface>
+            <name>ISehWsm</name>
             <instance>default</instance>
         </interface>
     </hal>
