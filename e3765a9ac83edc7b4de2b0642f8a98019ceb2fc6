@@ -52,6 +52,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3f5ec266_cc7c31ac",
+        "filename": "aidl/fingerprint/OpticalUdfps.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32210
+      },
+      "writtenOn": "2025-02-20T12:29:41Z",
+      "side": 1,
+      "message": "done",
+      "parentUuid": "54a3fecc_21ee1dec",
+      "revId": "e3765a9ac83edc7b4de2b0642f8a98019ceb2fc6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2b38d770_f39f270e",
@@ -65,6 +83,24 @@
       "writtenOn": "2025-02-20T10:43:19Z",
       "side": 1,
       "message": "Add copyrights",
+      "revId": "e3765a9ac83edc7b4de2b0642f8a98019ceb2fc6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9d3310fd_15ddbe65",
+        "filename": "aidl/fingerprint/OpticalUdfps.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32210
+      },
+      "writtenOn": "2025-02-20T12:29:41Z",
+      "side": 1,
+      "message": "done",
+      "parentUuid": "2b38d770_f39f270e",
       "revId": "e3765a9ac83edc7b4de2b0642f8a98019ceb2fc6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -92,6 +128,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b8a1d7e9_a5b3eead",
+        "filename": "aidl/fingerprint/OpticalUdfps.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 32210
+      },
+      "writtenOn": "2025-02-20T12:29:41Z",
+      "side": 1,
+      "message": "done",
+      "parentUuid": "dbd2e60f_e081326f",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 2,
+        "endChar": 67
+      },
+      "revId": "e3765a9ac83edc7b4de2b0642f8a98019ceb2fc6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "839dd6aa_34d59be8",
@@ -105,6 +165,24 @@
       "writtenOn": "2025-02-20T10:43:19Z",
       "side": 1,
       "message": "Remove newline",
+      "revId": "e3765a9ac83edc7b4de2b0642f8a98019ceb2fc6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8b6c91f0_443fad3d",
+        "filename": "aidl/fingerprint/Session.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 32210
+      },
+      "writtenOn": "2025-02-20T12:29:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "839dd6aa_34d59be8",
       "revId": "e3765a9ac83edc7b4de2b0642f8a98019ceb2fc6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -126,6 +204,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "61c34ad0_53854078",
+        "filename": "aidl/fingerprint/Session.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 32210
+      },
+      "writtenOn": "2025-02-20T12:29:41Z",
+      "side": 1,
+      "message": "done",
+      "parentUuid": "e2a198fa_f436356b",
+      "revId": "e3765a9ac83edc7b4de2b0642f8a98019ceb2fc6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c7e0d182_0d437691",
@@ -143,6 +239,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "20030789_d413dc6d",
+        "filename": "aidl/fingerprint/Session.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 217,
+      "author": {
+        "id": 32210
+      },
+      "writtenOn": "2025-02-20T12:29:41Z",
+      "side": 1,
+      "message": "done",
+      "parentUuid": "c7e0d182_0d437691",
+      "revId": "e3765a9ac83edc7b4de2b0642f8a98019ceb2fc6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "255a02cd_5c0b9b7e",
@@ -156,6 +270,24 @@
       "writtenOn": "2025-02-20T10:43:19Z",
       "side": 1,
       "message": "Remove newline",
+      "revId": "e3765a9ac83edc7b4de2b0642f8a98019ceb2fc6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7191711c_6446a91a",
+        "filename": "aidl/fingerprint/Session.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 464,
+      "author": {
+        "id": 32210
+      },
+      "writtenOn": "2025-02-20T12:29:41Z",
+      "side": 1,
+      "message": "done",
+      "parentUuid": "255a02cd_5c0b9b7e",
       "revId": "e3765a9ac83edc7b4de2b0642f8a98019ceb2fc6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
