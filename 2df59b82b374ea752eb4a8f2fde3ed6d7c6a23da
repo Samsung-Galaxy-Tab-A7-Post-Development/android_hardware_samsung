@@ -34,6 +34,24 @@
       "parentUuid": "dc53b69e_8a9cfb1b",
       "revId": "2df59b82b374ea752eb4a8f2fde3ed6d7c6a23da",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7c6d83a6_54fe931b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34207
+      },
+      "writtenOn": "2025-02-20T14:39:54Z",
+      "side": 1,
+      "message": "If it\u0027s not set with a soong config, it\u0027s not defined, and the compilation fails.",
+      "parentUuid": "c3bd8b63_48ebbb92",
+      "revId": "2df59b82b374ea752eb4a8f2fde3ed6d7c6a23da",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
