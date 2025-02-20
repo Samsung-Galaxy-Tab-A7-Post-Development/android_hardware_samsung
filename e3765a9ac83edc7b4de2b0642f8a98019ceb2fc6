@@ -16,6 +16,148 @@
       "message": "This commit has been rebased.  During the investigation, ata-kaner and I discovered a method for configuring framework dimming through the Qualcomm SDE-DRM driver.  However, manipulating the mask in this process has introduced conflicts with mask brightness control, as the framework dimming mechanism now controls the brightness.",
       "revId": "e3765a9ac83edc7b4de2b0642f8a98019ceb2fc6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "80f5be2c_2fa96889",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-02-20T10:43:19Z",
+      "side": 1,
+      "message": "Also update copyrights and be sure to run clang-format.",
+      "revId": "e3765a9ac83edc7b4de2b0642f8a98019ceb2fc6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "54a3fecc_21ee1dec",
+        "filename": "aidl/fingerprint/OpticalUdfps.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-02-20T10:43:19Z",
+      "side": 1,
+      "message": "Add copyrights",
+      "revId": "e3765a9ac83edc7b4de2b0642f8a98019ceb2fc6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2b38d770_f39f270e",
+        "filename": "aidl/fingerprint/OpticalUdfps.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-02-20T10:43:19Z",
+      "side": 1,
+      "message": "Add copyrights",
+      "revId": "e3765a9ac83edc7b4de2b0642f8a98019ceb2fc6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dbd2e60f_e081326f",
+        "filename": "aidl/fingerprint/OpticalUdfps.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-02-20T10:43:19Z",
+      "side": 1,
+      "message": "Use pragma once directive",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 2,
+        "endChar": 67
+      },
+      "revId": "e3765a9ac83edc7b4de2b0642f8a98019ceb2fc6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "839dd6aa_34d59be8",
+        "filename": "aidl/fingerprint/Session.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-02-20T10:43:19Z",
+      "side": 1,
+      "message": "Remove newline",
+      "revId": "e3765a9ac83edc7b4de2b0642f8a98019ceb2fc6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e2a198fa_f436356b",
+        "filename": "aidl/fingerprint/Session.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-02-20T10:43:19Z",
+      "side": 1,
+      "message": "Wrong indentation",
+      "revId": "e3765a9ac83edc7b4de2b0642f8a98019ceb2fc6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c7e0d182_0d437691",
+        "filename": "aidl/fingerprint/Session.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 217,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-02-20T10:43:19Z",
+      "side": 1,
+      "message": "Stray space",
+      "revId": "e3765a9ac83edc7b4de2b0642f8a98019ceb2fc6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "255a02cd_5c0b9b7e",
+        "filename": "aidl/fingerprint/Session.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 464,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-02-20T10:43:19Z",
+      "side": 1,
+      "message": "Remove newline",
+      "revId": "e3765a9ac83edc7b4de2b0642f8a98019ceb2fc6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
