@@ -16,6 +16,69 @@
       "message": "Fixed up and ran clang-format.",
       "revId": "1b43b3b43c629c0a533a3f02b354b1b550cbd055",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "628a7ff3_e1a0b9fe",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-02-20T12:39:10Z",
+      "side": 1,
+      "message": "Update copyright on the other files too.",
+      "revId": "1b43b3b43c629c0a533a3f02b354b1b550cbd055",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9c475348_084fc4c5",
+        "filename": "aidl/fingerprint/OpticalUdfps.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-02-20T12:39:10Z",
+      "side": 1,
+      "message": "Again, use #pragma once",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 8,
+        "endChar": 67
+      },
+      "revId": "1b43b3b43c629c0a533a3f02b354b1b550cbd055",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bb0a02bc_21b872a0",
+        "filename": "aidl/fingerprint/Session.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-02-20T12:39:10Z",
+      "side": 1,
+      "message": "2024-2025",
+      "range": {
+        "startLine": 2,
+        "startChar": 17,
+        "endLine": 2,
+        "endChar": 22
+      },
+      "revId": "1b43b3b43c629c0a533a3f02b354b1b550cbd055",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
