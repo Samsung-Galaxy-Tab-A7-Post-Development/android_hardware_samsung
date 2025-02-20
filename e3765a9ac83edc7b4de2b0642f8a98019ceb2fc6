@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "855316a2_5594c7cc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32210
+      },
+      "writtenOn": "2025-02-20T09:57:53Z",
+      "side": 1,
+      "message": "This commit has been rebased.  During the investigation, ata-kaner and I discovered a method for configuring framework dimming through the Qualcomm SDE-DRM driver.  However, manipulating the mask in this process has introduced conflicts with mask brightness control, as the framework dimming mechanism now controls the brightness.",
+      "revId": "e3765a9ac83edc7b4de2b0642f8a98019ceb2fc6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
