@@ -85,6 +85,30 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "f8b301bb_5cbccdf2",
+        "filename": "aidl/fingerprint/OpticalUdfps.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 32210
+      },
+      "writtenOn": "2025-02-20T09:54:13Z",
+      "side": 1,
+      "message": "Removed, No Need",
+      "parentUuid": "e2457f2d_4a08e48b",
+      "range": {
+        "startLine": 57,
+        "startChar": 0,
+        "endLine": 57,
+        "endChar": 30
+      },
+      "revId": "e42a5086dda70a250baa523d30515d329d600f28",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "096b690c_42d1cb77",
         "filename": "aidl/fingerprint/OpticalUdfps.cpp",
         "patchSetId": 1
@@ -137,6 +161,30 @@
       "side": 1,
       "message": "I will remove this.",
       "parentUuid": "8c24b891_ad674076",
+      "range": {
+        "startLine": 94,
+        "startChar": 0,
+        "endLine": 97,
+        "endChar": 5
+      },
+      "revId": "e42a5086dda70a250baa523d30515d329d600f28",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "376f226c_c53db076",
+        "filename": "aidl/fingerprint/OpticalUdfps.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 32210
+      },
+      "writtenOn": "2025-02-20T09:54:13Z",
+      "side": 1,
+      "message": "Removed, No need",
+      "parentUuid": "4e7bece1_477c158a",
       "range": {
         "startLine": 94,
         "startChar": 0,
