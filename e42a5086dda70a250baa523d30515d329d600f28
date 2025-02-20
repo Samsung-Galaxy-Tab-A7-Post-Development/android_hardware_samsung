@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "85e092b1_e84aab19",
+        "filename": "aidl/fingerprint/OpticalUdfps.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-02-20T09:16:11Z",
+      "side": 0,
+      "message": "What\u0027s the point of removing the comments if the function still does the same thing?",
+      "range": {
+        "startLine": 12,
+        "startChar": 0,
+        "endLine": 12,
+        "endChar": 87
+      },
+      "revId": "e42a5086dda70a250baa523d30515d329d600f28",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
