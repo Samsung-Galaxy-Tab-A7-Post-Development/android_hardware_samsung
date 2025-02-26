@@ -21,4 +21,24 @@
     <string name="screen_colors_title">رنگ‌ها</string>
     <string name="mdnie_scenario_title_head">خط مشی</string>
     <string name="mdnie_scenario_summary_head">تنظیم خط مشی mDNIe</string>
+    <string name="mdnie_accessibility_title_head">حالت دسترسی</string>
+    <string name="mdnie_accessibility_summary_head">تنظیم حالت دسترسی mDNIe</string>
+    <string name="mdnie_scenario_ui">LineageOS (پیش فرض)</string>
+    <string name="mdnie_scenario_video">ویدئو</string>
+    <string name="mdnie_scenario_video_warm">ویدئو گرم</string>
+    <string name="mdnie_scenario_video_cold">ویدئو سرد</string>
+    <string name="mdnie_scenario_camera">دوربین</string>
+    <string name="mdnie_scenario_navigation">پیمایش</string>
+    <string name="mdnie_scenario_gallery">گالری</string>
+    <string name="mdnie_scenario_vt">تماس تصویری</string>
+    <string name="mdnie_scenario_browser">مرورگر</string>
+    <string name="mdnie_scenario_ebook">کتاب</string>
+    <string name="mdnie_scenario_email">ایمیل</string>
+    <string name="mdnie_scenario_tdmb">تلویزیون دیجیتال</string>
+    <string name="mdnie_accessibility_normal">عادی</string>
+    <string name="mdnie_accessibility_inverse">معکوس</string>
+    <string name="mdnie_accessibility_color_blind">کور رنگی</string>
+    <string name="mdnie_accessibility_screen_curtain">پرده صفحه نمایش</string>
+    <string name="mdnie_accessibility_grayscale">خاکستری</string>
+    <string name="mdnie_accessibility_gray_negative">خاکستری معکوس</string>
 </resources>
