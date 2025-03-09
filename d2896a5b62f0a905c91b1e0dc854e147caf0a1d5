@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2b597432_e6987c50",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 17401
+      },
+      "writtenOn": "2025-03-09T20:45:56Z",
+      "side": 1,
+      "message": "fine by me, macloader is the only one that may see a comeback in the future, rest is unused afaik",
+      "revId": "d2896a5b62f0a905c91b1e0dc854e147caf0a1d5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
