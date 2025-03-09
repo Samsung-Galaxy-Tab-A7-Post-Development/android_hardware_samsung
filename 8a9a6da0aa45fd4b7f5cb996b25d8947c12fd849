@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d1399526_8b4adbce",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34512
+      },
+      "writtenOn": "2025-03-09T20:36:12Z",
+      "side": 1,
+      "message": "Abandon https://review.lineageos.org/c/LineageOS/android_hardware_samsung/+/421802 if we choose to merge this. And remove the package from a71 and gts4lv",
+      "revId": "8a9a6da0aa45fd4b7f5cb996b25d8947c12fd849",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
