@@ -35,14 +35,8 @@ namespace android {
 // Defines
 //---------------------------------------------------------------------------
 #define RILD_PORT               7777
-#ifdef USES_VND_SECRIL
 #define MULTI_CLIENT_SOCKET_NAME "VND_Multiclient"
 #define MULTI_CLIENT_SOCKET_NAME_2 "VND_Multiclient2"
-#else
-#define MULTI_CLIENT_SOCKET_NAME "Multiclient"
-#define MULTI_CLIENT_SOCKET_NAME_2 "Multiclient2"
-#endif
-#define MULTI_CLIENT_Q_SOCKET_NAME "QMulticlient"
 
 #define MAX_COMMAND_BYTES       (8 * 1024)
 #define REQ_POOL_SIZE           32
@@ -87,20 +81,6 @@ namespace android {
 #define OEM_SND_TYPE_HEADSET        0x31 // Headset(0x30) + Voice(0x01)
 #define OEM_SND_TYPE_BTVOICE        0x41 // BT(0x40) + Voice(0x01)
 
-#ifdef SAMSUNG_NEXT_GEN_MODEM
-#define OEM_SND_AUDIO_PATH_EARPIECE           0x01
-#define OEM_SND_AUDIO_PATH_HEADSET            0x02
-#define OEM_SND_AUDIO_PATH_HFK                0x06
-#define OEM_SND_AUDIO_PATH_BLUETOOTH          0x04
-#define OEM_SND_AUDIO_PATH_STEREO_BLUETOOTH   0x05
-#define OEM_SND_AUDIO_PATH_SPEAKER            0x07
-#define OEM_SND_AUDIO_PATH_HEADPHONE          0x08
-#define OEM_SND_AUDIO_PATH_BT_NSEC_OFF        0x09
-#define OEM_SND_AUDIO_PATH_MIC1               0x0A
-#define OEM_SND_AUDIO_PATH_MIC2               0x0B
-#define OEM_SND_AUDIO_PATH_BT_WB              0x0C
-#define OEM_SND_AUDIO_PATH_BT_WB_NSEC_OFF     0x0D
-#else
 #define OEM_SND_AUDIO_PATH_EARPIECE     0x01
 #define OEM_SND_AUDIO_PATH_HEADSET      0x02
 #define OEM_SND_AUDIO_PATH_HFK                0x03
@@ -113,7 +93,6 @@ namespace android {
 #define OEM_SND_AUDIO_PATH_MIC2 0x0A
 #define OEM_SND_AUDIO_PATH_BT_WB  0x0B
 #define OEM_SND_AUDIO_PATH_BT_WB_NSEC_OFF  0x0C
-#endif
 
 //---------------------------------------------------------------------------
 // Type definitions
@@ -366,70 +345,6 @@ int Connect_RILD(HRilClient client) {
     // Open client socket and connect to server.
     //client_prv->sock = socket_loopback_client(RILD_PORT, SOCK_STREAM);
     client_prv->sock = socket_local_client(MULTI_CLIENT_SOCKET_NAME, ANDROID_SOCKET_NAMESPACE_ABSTRACT, SOCK_STREAM );
-
-    if (client_prv->sock < 0) {
-        RLOGE("%s: Connecting failed. %s(%d)", __FUNCTION__, strerror(errno), errno);
-        return RIL_CLIENT_ERR_CONNECT;
-    }
-
-    client_prv->b_connect = 1;
-
-    if (fcntl(client_prv->sock, F_SETFL, O_NONBLOCK) < 0) {
-        close(client_prv->sock);
-        return RIL_CLIENT_ERR_IO;
-    }
-
-    client_prv->p_rs = record_stream_new(client_prv->sock, MAX_COMMAND_BYTES);
-
-    if (pipe(client_prv->pipefd) < 0) {
-        close(client_prv->sock);
-        RLOGE("%s: Creating command pipe failed. %s(%d)", __FUNCTION__, strerror(errno), errno);
-        return RIL_CLIENT_ERR_IO;
-    }
-
-    if (fcntl(client_prv->pipefd[0], F_SETFL, O_NONBLOCK) < 0) {
-        close(client_prv->sock);
-        close(client_prv->pipefd[0]);
-        close(client_prv->pipefd[1]);
-        return RIL_CLIENT_ERR_IO;
-    }
-
-    // Start socket read thread.
-    if (pthread_create(&(client_prv->tid_reader), NULL, RxReaderFunc, (void *)client_prv) != 0) {
-        close(client_prv->sock);
-        close(client_prv->pipefd[0]);
-        close(client_prv->pipefd[1]);
-
-        memset(client_prv, 0, sizeof(RilClientPrv));
-        client_prv->sock = -1;
-        RLOGE("%s: Can't create Reader thread. %s(%d)", __FUNCTION__, strerror(errno), errno);
-        return RIL_CLIENT_ERR_CONNECT;
-    }
-
-    return RIL_CLIENT_ERR_SUCCESS;
-}
-
-/**
- * @fn  int Connect_QRILD(void)
- *
- * @params  client: Client handle.
- *
- * @return  0, or error code.
- */
-extern "C"
-int Connect_QRILD(HRilClient client) {
-    RilClientPrv *client_prv;
-
-    if (client == NULL || client->prv == NULL) {
-        RLOGE("%s: Invalid client %p", __FUNCTION__, client);
-        return RIL_CLIENT_ERR_INVAL;
-    }
-
-    client_prv = (RilClientPrv *)(client->prv);
-
-    // Open client socket and connect to server.
-    //client_prv->sock = socket_loopback_client(RILD_PORT, SOCK_STREAM);
-    client_prv->sock = socket_local_client(MULTI_CLIENT_Q_SOCKET_NAME, ANDROID_SOCKET_NAMESPACE_ABSTRACT, SOCK_STREAM );
 
     if (client_prv->sock < 0) {
         RLOGE("%s: Connecting failed. %s(%d)", __FUNCTION__, strerror(errno), errno);
