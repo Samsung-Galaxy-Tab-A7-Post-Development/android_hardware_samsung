@@ -16,6 +16,24 @@
       "message": "I don\u0027t have broken dup rules enabled and don\u0027t really want it just for this. There should be a better way to do it.",
       "revId": "03f65b2096156cf9c8de22cd6e471eff051f510f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e8ae5508_5448cc1b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 17401
+      },
+      "writtenOn": "2025-03-09T18:09:21Z",
+      "side": 1,
+      "message": "one could import the vendor lib/namespace with a select, thats the easiest way (thats what we do in the exynos bsp for a couple things for this exact reason)",
+      "parentUuid": "c63f83d9_caf5831a",
+      "revId": "03f65b2096156cf9c8de22cd6e471eff051f510f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
