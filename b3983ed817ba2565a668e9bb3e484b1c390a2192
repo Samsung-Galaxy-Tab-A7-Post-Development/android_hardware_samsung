@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ee9d6b77_d3f87f04",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-03-09T21:48:55Z",
+      "side": 1,
+      "message": "Don\u0027t you want to merge this also before lineage-22.2?",
+      "revId": "b3983ed817ba2565a668e9bb3e484b1c390a2192",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
