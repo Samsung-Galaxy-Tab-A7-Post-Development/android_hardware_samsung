@@ -14,14 +14,8 @@
 
 SAM_ROOT := $(call my-dir)
 
-# Wifi
-ifeq ($(BOARD_HAVE_SAMSUNG_WIFI),true)
-include $(SAM_ROOT)/wifiloader/Android.mk
-endif
-
 ifeq ($(BOARD_VENDOR),samsung)
 include $(SAM_ROOT)/audio/Android.mk
 include $(SAM_ROOT)/hidl/Android.mk
-include $(SAM_ROOT)/modemloader/Android.mk
 include $(SAM_ROOT)/ril/Android.mk
 endif
