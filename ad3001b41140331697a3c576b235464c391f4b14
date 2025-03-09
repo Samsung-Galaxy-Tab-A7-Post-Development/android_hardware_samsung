@@ -33,6 +33,24 @@
       "message": "I guess we\u0027ll move this one to new lineage-22.2 branch.",
       "revId": "ad3001b41140331697a3c576b235464c391f4b14",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "54f37c7b_0fa01ca9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 17401
+      },
+      "writtenOn": "2025-03-09T22:54:21Z",
+      "side": 1,
+      "message": "either that or an announcement on discord for samsung maintainers, either way +2 from my side",
+      "parentUuid": "13e11ded_eb09709a",
+      "revId": "ad3001b41140331697a3c576b235464c391f4b14",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
