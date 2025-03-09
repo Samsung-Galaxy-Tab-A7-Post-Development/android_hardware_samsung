@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c63f83d9_caf5831a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25925
+      },
+      "writtenOn": "2025-03-09T17:59:54Z",
+      "side": 1,
+      "message": "I don\u0027t have broken dup rules enabled and don\u0027t really want it just for this. There should be a better way to do it.",
+      "revId": "03f65b2096156cf9c8de22cd6e471eff051f510f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
