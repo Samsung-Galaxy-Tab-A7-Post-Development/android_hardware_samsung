@@ -1,0 +1,20 @@
+//
+// Copyright (C) 2025 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+cc_library_shared {
+    name: "libsecril-client",
+    vendor: true,
+    srcs: ["secril-client.cpp"],
+
+    shared_libs: [
+        "libbinder",
+        "libcutils",
+        "libhardware_legacy",
+        "liblog",
+        "librilutils",
+        "libutils",
+    ],
+}
