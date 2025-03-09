@@ -35,13 +35,8 @@ namespace android {
 // Defines
 //---------------------------------------------------------------------------
 #define RILD_PORT               7777
-#ifdef USES_VND_SECRIL
 #define MULTI_CLIENT_SOCKET_NAME "VND_Multiclient"
 #define MULTI_CLIENT_SOCKET_NAME_2 "VND_Multiclient2"
-#else
-#define MULTI_CLIENT_SOCKET_NAME "Multiclient"
-#define MULTI_CLIENT_SOCKET_NAME_2 "Multiclient2"
-#endif
 #define MULTI_CLIENT_Q_SOCKET_NAME "QMulticlient"
 
 #define MAX_COMMAND_BYTES       (8 * 1024)
@@ -87,7 +82,6 @@ namespace android {
 #define OEM_SND_TYPE_HEADSET        0x31 // Headset(0x30) + Voice(0x01)
 #define OEM_SND_TYPE_BTVOICE        0x41 // BT(0x40) + Voice(0x01)
 
-#ifdef SAMSUNG_NEXT_GEN_MODEM
 #define OEM_SND_AUDIO_PATH_EARPIECE           0x01
 #define OEM_SND_AUDIO_PATH_HEADSET            0x02
 #define OEM_SND_AUDIO_PATH_HFK                0x06
@@ -100,20 +94,6 @@ namespace android {
 #define OEM_SND_AUDIO_PATH_MIC2               0x0B
 #define OEM_SND_AUDIO_PATH_BT_WB              0x0C
 #define OEM_SND_AUDIO_PATH_BT_WB_NSEC_OFF     0x0D
-#else
-#define OEM_SND_AUDIO_PATH_EARPIECE     0x01
-#define OEM_SND_AUDIO_PATH_HEADSET      0x02
-#define OEM_SND_AUDIO_PATH_HFK                0x03
-#define OEM_SND_AUDIO_PATH_BLUETOOTH    0x04
-#define OEM_SND_AUDIO_PATH_STEREO_BLUETOOTH   0x05
-#define OEM_SND_AUDIO_PATH_SPEAKER      0x06
-#define OEM_SND_AUDIO_PATH_HEADPHONE      0x07
-#define OEM_SND_AUDIO_PATH_BT_NSEC_OFF  0x08
-#define OEM_SND_AUDIO_PATH_MIC1 0x09
-#define OEM_SND_AUDIO_PATH_MIC2 0x0A
-#define OEM_SND_AUDIO_PATH_BT_WB  0x0B
-#define OEM_SND_AUDIO_PATH_BT_WB_NSEC_OFF  0x0C
-#endif
 
 //---------------------------------------------------------------------------
 // Type definitions
