@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c0cd5f7c_463b920c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34512
+      },
+      "writtenOn": "2025-03-09T20:10:43Z",
+      "side": 1,
+      "message": "No devices with lineage 19 support and newer use these variables, so this won\u0027t break any modern device trees.",
+      "revId": "2627104b7e817ea455f7825e98e43c04efe438d7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
