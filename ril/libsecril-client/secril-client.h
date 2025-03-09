@@ -70,12 +70,6 @@ int CloseClient_RILD(HRilClient client);
 int Connect_RILD(HRilClient client);
 
 /**
- * Connect to QRIL deamon. One client task starts.
- * Return is 0 or error code.
- */
-int Connect_QRILD(HRilClient client);
-
-/**
  * Connect to RIL deamon. One client task starts.
  * Return is 0 or error code.
  */
