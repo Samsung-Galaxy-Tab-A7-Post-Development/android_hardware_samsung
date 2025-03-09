@@ -15,7 +15,6 @@
 SAM_ROOT := $(call my-dir)
 
 ifeq ($(BOARD_VENDOR),samsung)
-include $(SAM_ROOT)/audio/Android.mk
 include $(SAM_ROOT)/hidl/Android.mk
 include $(SAM_ROOT)/ril/Android.mk
 endif
