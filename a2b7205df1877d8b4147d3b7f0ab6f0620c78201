@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "54992c64_efa22355",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25925
+      },
+      "writtenOn": "2025-03-09T18:04:16Z",
+      "side": 1,
+      "message": "These should probably be namespaced unless they really can be used on newer samsung devices.",
+      "revId": "a2b7205df1877d8b4147d3b7f0ab6f0620c78201",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
