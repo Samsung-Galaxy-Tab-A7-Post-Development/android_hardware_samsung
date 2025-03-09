@@ -34,6 +34,24 @@
       "parentUuid": "54992c64_efa22355",
       "revId": "a2b7205df1877d8b4147d3b7f0ab6f0620c78201",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6382402e_5b43debf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34512
+      },
+      "writtenOn": "2025-03-09T20:07:54Z",
+      "side": 1,
+      "message": "I think this is the case for lots of exynos devices, but not noticeable since most devices use BSP on exynos now, unfortunately I don\u0027t have BSP support yet 😭",
+      "parentUuid": "73d45d1e_acbd00ff",
+      "revId": "a2b7205df1877d8b4147d3b7f0ab6f0620c78201",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
