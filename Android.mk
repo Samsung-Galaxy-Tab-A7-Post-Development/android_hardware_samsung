@@ -16,7 +16,6 @@ SAM_ROOT := $(call my-dir)
 
 # Wifi
 ifeq ($(BOARD_HAVE_SAMSUNG_WIFI),true)
-include $(SAM_ROOT)/macloader/Android.mk
 include $(SAM_ROOT)/wifiloader/Android.mk
 endif
 
