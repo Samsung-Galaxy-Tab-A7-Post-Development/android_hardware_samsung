@@ -16,6 +16,23 @@
       "message": "Don\u0027t you want to merge this also before lineage-22.2?",
       "revId": "b3983ed817ba2565a668e9bb3e484b1c390a2192",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f80d30b5_4506064f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34512
+      },
+      "writtenOn": "2025-03-10T19:32:24Z",
+      "side": 1,
+      "message": "booted this change on exynos 850, and all available sensors were sucessfully probed and usable.",
+      "revId": "b3983ed817ba2565a668e9bb3e484b1c390a2192",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
