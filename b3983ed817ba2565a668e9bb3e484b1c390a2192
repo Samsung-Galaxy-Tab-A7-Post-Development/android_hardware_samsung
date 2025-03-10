@@ -51,6 +51,24 @@
       "parentUuid": "f80d30b5_4506064f",
       "revId": "b3983ed817ba2565a668e9bb3e484b1c390a2192",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "95544c43_8c32aab0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34512
+      },
+      "writtenOn": "2025-03-10T20:11:07Z",
+      "side": 1,
+      "message": "ahh just this commit, is it only this one to complete the chain?\nhttps://review.lineageos.org/c/LineageOS/android_hardware_samsung/+/413258/2?usp\u003drelated-change",
+      "parentUuid": "7747af69_ed46c030",
+      "revId": "b3983ed817ba2565a668e9bb3e484b1c390a2192",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
