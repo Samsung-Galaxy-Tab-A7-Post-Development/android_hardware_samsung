@@ -1,0 +1,52 @@
+//
+// Copyright (C) The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+soong_namespace {}
+
+cc_binary {
+    name: "macloader",
+    proprietary: true,
+    relative_install_path: "hw",
+
+    srcs: ["macloader.c"],
+
+    cflags: [] + select(soong_config_variable("samsungVars", "wifi_driver_module_path"), {
+        any @ flag_val: [ "-DWIFI_DRIVER_MODULE_PATH=" + flag_val ],
+        default: ["-DSEC_WLAN_BUILTIN_DRIVER"],
+    } + select(soong_config_variable("samsungVars", "wifi_bcm4334b2_power_war"), {
+        "true": ["-DBCM4334B2_POWER_WAR"],
+        default: [],
+    }) + select(soong_config_variable("samsungVars", "wifi_chip_type_cob"), {
+        "true": ["-DCOB_TYPE"],
+        default: [],
+    }) + select(soong_config_variable("samsungVars", "wifi_need_cid"), {
+        "true": ["-DNEED_CID"],
+        default: [],
+    }) + select(soong_config_variable("samsungVars", "wifi_pcie_cob"), {
+        "true": ["-DBCM_OTP_WRITE"],
+        default: [],
+    }) + select(soong_config_variable("samsungVars", "wifi_chip"), {
+        "qca9377": ["-DQUALCOMM_SCPC"],
+        default: [],
+    }) + select(soong_config_variable("samsungVars", "wifi_vendor"), {
+        "atheros": ["-DATHEROS_DUT"],
+        "bcm": ["-DBROADCOM_DUT"],
+        "mrvl": ["-DMARVELL_DUT"],
+        "mtk": ["-DMTK_DUT"],
+        "qcom": ["-DQUALCOMM_DUT"],
+        "slsi": ["-DSAMSUNGSLSI_DUT"],
+        "sprd": ["-DSPRD_DUT"],
+        "stericsson": ["-DSTERICSSON_DUT"],
+        "ti": ["-DTI_DUT"],
+        default: [],
+    }),
+
+    shared_libs: [
+        "libutils",
+        "liblog",
+        "libutils",
+    ],
+}
