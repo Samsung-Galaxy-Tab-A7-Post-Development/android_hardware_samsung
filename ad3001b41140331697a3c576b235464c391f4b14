@@ -51,6 +51,24 @@
       "parentUuid": "13e11ded_eb09709a",
       "revId": "ad3001b41140331697a3c576b235464c391f4b14",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "efd56e27_8b62d6b2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34512
+      },
+      "writtenOn": "2025-03-10T15:19:32Z",
+      "side": 1,
+      "message": "switch to 22.2",
+      "parentUuid": "54f37c7b_0fa01ca9",
+      "revId": "ad3001b41140331697a3c576b235464c391f4b14",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
