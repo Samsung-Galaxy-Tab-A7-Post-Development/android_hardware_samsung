@@ -34,6 +34,24 @@
       "parentUuid": "cf80fa64_059c9244",
       "revId": "f7f628bd23ad9c863e99151243c3db4fd8e17907",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "99b01c25_28348eff",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34512
+      },
+      "writtenOn": "2025-03-10T15:38:52Z",
+      "side": 1,
+      "message": "switch 22.2",
+      "parentUuid": "97761244_17a7dd6b",
+      "revId": "f7f628bd23ad9c863e99151243c3db4fd8e17907",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
