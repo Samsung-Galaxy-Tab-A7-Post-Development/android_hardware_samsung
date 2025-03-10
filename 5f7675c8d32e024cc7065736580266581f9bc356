@@ -16,6 +16,24 @@
       "message": "FYI this is set in build/make in QPR2:\n\n$(call soong_config_set,wifi,driver_module_path,$(WIFI_DRIVER_MODULE_PATH))",
       "revId": "5f7675c8d32e024cc7065736580266581f9bc356",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e6c97e33_c7c42e37",
+        "filename": "macloader/Android.bp",
+        "patchSetId": 4
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 17401
+      },
+      "writtenOn": "2025-03-10T19:06:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "840b6e7c_bbb21590",
+      "revId": "5f7675c8d32e024cc7065736580266581f9bc356",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
