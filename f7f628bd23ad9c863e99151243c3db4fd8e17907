@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cf80fa64_059c9244",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 17401
+      },
+      "writtenOn": "2025-03-10T03:29:15Z",
+      "side": 1,
+      "message": "not compile tested whatsoever, added you die to https://review.lineageos.org/c/LineageOS/android_device_samsung_sm8250-common/+/422006",
+      "revId": "f7f628bd23ad9c863e99151243c3db4fd8e17907",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
