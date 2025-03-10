@@ -33,6 +33,24 @@
       "message": "booted this change on exynos 850, and all available sensors were sucessfully probed and usable.",
       "revId": "b3983ed817ba2565a668e9bb3e484b1c390a2192",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7747af69_ed46c030",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-03-10T19:36:41Z",
+      "side": 1,
+      "message": "This change alone or this whole chain?",
+      "parentUuid": "f80d30b5_4506064f",
+      "revId": "b3983ed817ba2565a668e9bb3e484b1c390a2192",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
