@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7552a1e9_12e7ab0c",
+        "filename": "aidl/camera/provider/service.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 34512
+      },
+      "writtenOn": "2025-03-13T17:27:37Z",
+      "side": 1,
+      "message": "Did you check if this return gets triggered if defaultProvider fails?",
+      "revId": "acfb90c89d596627ccf0d6b53805355a5684f2b2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
