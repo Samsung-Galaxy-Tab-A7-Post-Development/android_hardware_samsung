@@ -16,6 +16,23 @@
       "message": "Hakam, please can you verify this works for the sm6375 platform by +1 verify.",
       "revId": "334e537c0749986866df39e257f846d89f223e0e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "298cbb69_2bb55182",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26928
+      },
+      "writtenOn": "2025-03-14T21:40:43Z",
+      "side": 1,
+      "message": "yes I booted lineage 21 on my galaxy a23 5g, which is sm6375 but theres a lot works to fix everything.",
+      "revId": "334e537c0749986866df39e257f846d89f223e0e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
