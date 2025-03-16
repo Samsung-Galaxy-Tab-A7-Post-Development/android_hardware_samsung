@@ -50,6 +50,24 @@
       "message": "ofc it might required some clean, due to some of them are already here. I’ll rework it once done with the bringup. https://review.lineageos.org/c/LineageOS/android_hardware_samsung/+/413262",
       "revId": "334e537c0749986866df39e257f846d89f223e0e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ce330398_ad0bef0e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34512
+      },
+      "writtenOn": "2025-03-16T22:56:40Z",
+      "side": 1,
+      "message": "If ur bringing up, this really shouldn’t be here at all yet, this should stay in your device tree until you are sure everything is working.",
+      "parentUuid": "e595ef5a_d5580791",
+      "revId": "334e537c0749986866df39e257f846d89f223e0e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
