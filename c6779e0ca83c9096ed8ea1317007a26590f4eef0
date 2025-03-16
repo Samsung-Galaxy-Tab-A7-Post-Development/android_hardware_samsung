@@ -16,6 +16,24 @@
       "message": "Let\u0027s instead just merge this finally:\n\nhttps://review.lineageos.org/c/LineageOS/android_hardware_samsung/+/413262",
       "revId": "c6779e0ca83c9096ed8ea1317007a26590f4eef0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1dd22ec4_a7a83c79",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34512
+      },
+      "writtenOn": "2025-03-16T19:55:33Z",
+      "side": 1,
+      "message": "agreed",
+      "parentUuid": "ce90b3c7_7ce63d6f",
+      "revId": "c6779e0ca83c9096ed8ea1317007a26590f4eef0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
