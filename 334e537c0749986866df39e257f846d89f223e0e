@@ -33,6 +33,23 @@
       "message": "yes I booted lineage 21 on my galaxy a23 5g, which is sm6375 but theres a lot works to fix everything.",
       "revId": "334e537c0749986866df39e257f846d89f223e0e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e595ef5a_d5580791",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26928
+      },
+      "writtenOn": "2025-03-16T22:55:10Z",
+      "side": 1,
+      "message": "ofc it might required some clean, due to some of them are already here. I’ll rework it once done with the bringup. https://review.lineageos.org/c/LineageOS/android_hardware_samsung/+/413262",
+      "revId": "334e537c0749986866df39e257f846d89f223e0e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
