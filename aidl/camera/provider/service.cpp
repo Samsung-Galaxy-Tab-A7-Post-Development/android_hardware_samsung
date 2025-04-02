@@ -24,6 +24,10 @@
 #include <android/binder_process.h>
 #include <log/log.h>
 
+#ifdef ACQUIRE_FENCE_WORKAROUND
+#include <android/fdsan.h>
+#endif
+
 using ::android::hardware::camera::provider::implementation::CameraProvider;
 
 namespace {
@@ -33,6 +37,10 @@ const int HWBINDER_THREAD_COUNT = 6;
 
 int main() {
     ALOGI("CameraProvider: samsung service is starting.");
+
+#ifdef ACQUIRE_FENCE_WORKAROUND
+    android_fdsan_set_error_level(ANDROID_FDSAN_ERROR_LEVEL_DISABLED);
+#endif
 
     ABinderProcess_setThreadPoolMaxThreadCount(HWBINDER_THREAD_COUNT);
 

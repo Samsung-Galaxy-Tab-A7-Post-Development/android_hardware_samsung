@@ -1341,6 +1341,10 @@ Status CameraDeviceSession::processOneCaptureRequest(const CaptureRequest& reque
         } else {
             return Status::INTERNAL_ERROR;
         }
+    } else {
+#ifdef ACQUIRE_FENCE_WORKAROUND
+        cleanupInflightFences(allFences, numBufs);
+#endif
     }
 
     mFirstRequest = false;
