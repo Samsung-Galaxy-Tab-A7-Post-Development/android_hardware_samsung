@@ -52,6 +52,24 @@
       "parentUuid": "97761244_17a7dd6b",
       "revId": "f7f628bd23ad9c863e99151243c3db4fd8e17907",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "74e020f5_1b36198c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34207
+      },
+      "writtenOn": "2025-04-02T12:22:03Z",
+      "side": 1,
+      "message": "This macloader is very complicated and does a lot of things we don\u0027t need. Here\u0027s my solution:\n\nhttps://github.com/sneedxynos/android_device_samsung_r8s/commit/37ce45dc64258bfe6182282f39f8d3647401deb1",
+      "parentUuid": "99b01c25_28348eff",
+      "revId": "f7f628bd23ad9c863e99151243c3db4fd8e17907",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
