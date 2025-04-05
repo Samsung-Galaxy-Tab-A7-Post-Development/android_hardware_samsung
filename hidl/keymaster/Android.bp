@@ -19,7 +19,7 @@ cc_binary {
         "libutils",
     ] + select(soong_config_variable("samsungVars", "target_keymaster4_library"), {
         // link before libkeymaster4 to allow injecting custom libcrypto
-        any @ flag_val: [ flag_val ],
+        any @ flag_val: [flag_val],
         default: [],
     }) + [
         "libkeymaster4",

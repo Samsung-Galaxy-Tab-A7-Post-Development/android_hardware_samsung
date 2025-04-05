@@ -1,10 +1,10 @@
 cc_library_static {
     name: "android.hardware.camera.common-helper.samsung",
-    vendor_available: true,
     defaults: [
         "hidl_defaults",
         "samsung_camera3_defaults",
     ],
+    vendor_available: true,
     srcs: [
         "CameraModule.cpp",
         "CameraMetadata.cpp",
