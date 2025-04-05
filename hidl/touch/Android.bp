@@ -14,8 +14,8 @@
 
 cc_binary {
     name: "vendor.lineage.touch@1.0-service.samsung",
-    init_rc: ["vendor.lineage.touch@1.0-service.samsung.rc"],
     defaults: ["samsung_header_path_defaults"],
+    init_rc: ["vendor.lineage.touch@1.0-service.samsung.rc"],
     relative_install_path: "hw",
     // FIXME: this should be 'vendor: true' for modules that will eventually be
     // on AOSP.
