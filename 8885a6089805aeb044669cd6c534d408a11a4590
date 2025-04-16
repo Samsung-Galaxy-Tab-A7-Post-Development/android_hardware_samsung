@@ -16,6 +16,24 @@
       "message": "0660 perm should work?",
       "revId": "8885a6089805aeb044669cd6c534d408a11a4590",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "03c7bc14_0b063592",
+        "filename": "hidl/powershare/vendor.lineage.powershare@1.0-service.samsung.rc",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 33569
+      },
+      "writtenOn": "2025-04-16T20:01:27Z",
+      "side": 1,
+      "message": "Exynos9820 init sets to 664 while r8q init sets to 660. I guess it\u0027s better to use 664 as it\u0027s just used for reading.",
+      "parentUuid": "66c1315d_b8052eb1",
+      "revId": "8885a6089805aeb044669cd6c534d408a11a4590",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
