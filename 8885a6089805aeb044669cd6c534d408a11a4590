@@ -69,6 +69,24 @@
       "parentUuid": "66c1315d_b8052eb1",
       "revId": "8885a6089805aeb044669cd6c534d408a11a4590",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "391a63f1_bf01dbdb",
+        "filename": "hidl/powershare/vendor.lineage.powershare@1.0-service.samsung.rc",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-04-16T20:08:40Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "03c7bc14_0b063592",
+      "revId": "8885a6089805aeb044669cd6c534d408a11a4590",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
