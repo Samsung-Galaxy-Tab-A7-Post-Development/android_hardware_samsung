@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "52f7f064_900fdabf",
+        "filename": "aidl/spen/vendor.samsung.hardware.spen-service.davinci.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-04-19T11:01:52Z",
+      "side": 1,
+      "message": "Can we drop `davinci`suffix?",
+      "range": {
+        "startLine": 1,
+        "startChar": 80,
+        "endLine": 1,
+        "endChar": 87
+      },
+      "revId": "14a770d781ec7a5e0a3bd6b8c4556b91459837b0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
