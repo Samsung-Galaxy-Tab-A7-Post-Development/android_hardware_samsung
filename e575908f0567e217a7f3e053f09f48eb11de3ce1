@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "74375232_8d3b2235",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-04-25T13:54:11Z",
+      "side": 1,
+      "message": "You can also consider doing this (plus the min path) https://review.lineageos.org/c/LineageOS/android_hardware_lineage_interfaces/+/428606 instead of using a header to configure paths",
+      "revId": "e575908f0567e217a7f3e053f09f48eb11de3ce1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
