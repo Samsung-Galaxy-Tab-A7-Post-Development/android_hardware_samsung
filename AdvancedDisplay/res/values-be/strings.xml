@@ -25,6 +25,7 @@
     <string name="mdnie_scenario_vt">Відэавыклік</string>
     <string name="mdnie_scenario_browser">Браўзер</string>
     <string name="mdnie_scenario_tdmb">Лічбавае тэлебачанне</string>
+    <string name="mdnie_accessibility_normal">Звычайны</string>
     <string name="mdnie_accessibility_inverse">Інвертаваны</string>
     <string name="mdnie_accessibility_color_blind">Дальтанізм</string>
     <string name="mdnie_accessibility_grayscale">Шэры</string>
