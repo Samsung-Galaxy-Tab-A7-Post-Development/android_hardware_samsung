@@ -34,6 +34,24 @@
       "parentUuid": "203baa34_4fd63756",
       "revId": "302b3ef078b3135d9d9f76f50910d7bd76f5b909",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7497fdfd_0beabd0d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-05-01T11:15:29Z",
+      "side": 1,
+      "message": "It builds and should work, but obviously it needs to be verified in a device.",
+      "parentUuid": "7150cdd8_c79e4ca5",
+      "revId": "302b3ef078b3135d9d9f76f50910d7bd76f5b909",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
