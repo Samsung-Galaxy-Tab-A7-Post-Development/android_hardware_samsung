@@ -70,6 +70,23 @@
       "parentUuid": "7497fdfd_0beabd0d",
       "revId": "302b3ef078b3135d9d9f76f50910d7bd76f5b909",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d9addfad_c0bd1772",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35199
+      },
+      "writtenOn": "2025-05-06T12:21:51Z",
+      "side": 1,
+      "message": "Hello, I\u0027ve confirmed that this does indeed work on the Samsung S10+ (beyond2lte)",
+      "revId": "302b3ef078b3135d9d9f76f50910d7bd76f5b909",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
