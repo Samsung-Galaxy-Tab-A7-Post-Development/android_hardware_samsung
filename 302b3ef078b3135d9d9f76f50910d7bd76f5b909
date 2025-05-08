@@ -122,6 +122,23 @@
       "message": "Tested on r8q. The device charges buds2 without any issues. No issues observed after multiple on and off.",
       "revId": "302b3ef078b3135d9d9f76f50910d7bd76f5b909",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f129acba_97882d82",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-05-08T08:38:20Z",
+      "side": 1,
+      "message": "Let\u0027s get this going?",
+      "revId": "302b3ef078b3135d9d9f76f50910d7bd76f5b909",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
