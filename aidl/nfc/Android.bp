@@ -1,0 +1,87 @@
+//
+// Copyright (C) 2018 The Android Open Source Project
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//      http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+cc_library_shared {
+    name: "nfc_nci_samsung",
+    defaults: ["hidl_defaults"],
+    proprietary: true,
+
+    cflags: [
+        "-DBUILDCFG=1",
+        "-DANDROID",
+        "-DNFC_HAL_TARGET=TRUE",
+        "-DNFC_RW_ONLY=TRUE",
+        "-DNFC_SEC_NOT_OPEN_INCLUDED=TRUE",
+    ],
+
+    srcs: [
+        "halimpl/osi/*.cc",
+        "halimpl/src/*.cc",
+        "halimpl/src/*.cpp",
+    ],
+
+    local_include_dirs: [
+        "halimpl/include",
+        "halimpl/osi",
+    ],
+    export_include_dirs: [
+        "halimpl/include",
+        "halimpl/osi",
+    ],
+
+    shared_libs: [
+        "android.hardware.nfc-V1-ndk",
+        "libbase",
+        "libcutils",
+        "libhardware",
+        "libhardware_legacy",
+        "libhidlbase",
+        "liblog",
+        "libutils",
+        "libcrypto",
+    ],
+}
+
+cc_binary {
+    name: "android.hardware.nfc-service.samsung",
+    proprietary: true,
+    init_rc: ["aidl/nfc-service-samsung.rc"],
+    vintf_fragments: ["aidl/nfc-service-samsung.xml"],
+    relative_install_path: "hw",
+    srcs: [
+        "aidl/SecNfcService.cpp",
+        "aidl/SecNfc.cpp",
+        "aidl/SecNfcExtns.cpp"
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wextra",
+    ],
+    local_include_dirs: [
+        "halimpl/include",
+        "halimpl/osi",
+    ],
+
+    shared_libs: [
+        "nfc_nci_samsung",
+        "android.hardware.nfc-V1-ndk",
+        "libbase",
+        "liblog",
+        "libutils",
+        "libbinder_ndk",
+        "libhardware",
+    ],
+}
