@@ -7,6 +7,19 @@ cc_binary {
     name: "vendor.lineage.touch-service.samsung",
     defaults: ["samsung_header_path_defaults"],
     init_rc: ["vendor.lineage.touch-service.samsung.rc"],
+    vintf_fragments: select(soong_config_variable("samsungTouchVars", "enableGloveMode"), {
+        "false": [],
+        default: ["vendor.lineage.touch-service.samsung-gm.xml"],
+    }) + select(soong_config_variable("samsungTouchVars", "enableKeyDisabler"), {
+        "true": ["vendor.lineage.touch-service.samsung-kd.xml"],
+        default: [],
+    }) + select(soong_config_variable("samsungTouchVars", "enableStylusMode"), {
+        "true": ["vendor.lineage.touch-service.samsung-sm.xml"],
+        default: [],
+    }) + select(soong_config_variable("samsungTouchVars", "enableTouchscreenGestures"), {
+        "true": ["vendor.lineage.touch-service.samsung-tg.xml"],
+        default: [],
+    }),
     relative_install_path: "hw",
     proprietary: true,
     srcs: [
