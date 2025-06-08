@@ -68,6 +68,24 @@
       "parentUuid": "a213b158_42e4f723",
       "revId": "e332d3478355881241a52bb19ebe755a3bf66750",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b67f135e_2eb50235",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34512
+      },
+      "writtenOn": "2025-06-08T11:39:05Z",
+      "side": 1,
+      "message": "https://review.lineageos.org/c/LineageOS/android_device_samsung_a21s-common/+/432678\n\nI looked at gta4xl(s) and they use lineage touch in the manifest so bit more will be needed for them.",
+      "parentUuid": "c217fae1_52587160",
+      "revId": "e332d3478355881241a52bb19ebe755a3bf66750",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
