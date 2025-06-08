@@ -11,6 +11,9 @@ cc_binary {
         "false": [],
         default: ["vendor.lineage.touch-service.samsung-gm.xml"],
     }) + select(soong_config_variable("samsungTouchVars", "enableKeyDisabler"), {
+        "false": [],
+        default: ["vendor.lineage.touch-service.samsung-htpr.xml"],
+    }) + select(soong_config_variable("samsungTouchVars", "enableKeyDisabler"), {
         "true": ["vendor.lineage.touch-service.samsung-kd.xml"],
         default: [],
     }) + select(soong_config_variable("samsungTouchVars", "enableStylusMode"), {
@@ -24,6 +27,7 @@ cc_binary {
     proprietary: true,
     srcs: [
         "GloveMode.cpp",
+        "HighTouchPollingRate.cpp",
         "KeyDisabler.cpp",
         "StylusMode.cpp",
         "TouchscreenGesture.cpp",
