@@ -50,6 +50,24 @@
       "message": "compiles and works on exynos 850\n\nplease submit this sepolicy patch with this patch, linked here:\nhttps://review.lineageos.org/c/LineageOS/android_device_samsung_slsi_sepolicy/+/432676",
       "revId": "e332d3478355881241a52bb19ebe755a3bf66750",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c217fae1_52587160",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-06-08T11:30:50Z",
+      "side": 1,
+      "message": "Do something about a21s-common first. Also, this can only be shipped when gta4xl(s)-common is updated.",
+      "parentUuid": "a213b158_42e4f723",
+      "revId": "e332d3478355881241a52bb19ebe755a3bf66750",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
