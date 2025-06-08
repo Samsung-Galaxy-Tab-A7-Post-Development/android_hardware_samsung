@@ -122,6 +122,24 @@
       "parentUuid": "bd03775c_eb340a1f",
       "revId": "e332d3478355881241a52bb19ebe755a3bf66750",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d85c8b2d_769b05c6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-06-08T11:59:48Z",
+      "side": 1,
+      "message": "From all the interfaces why did you choose ITouchscreenGesture? That\u0027s very limited in this service, as it depends on the existance of the epen gestures node...",
+      "parentUuid": "1e7e8e2b_55d3e63a",
+      "revId": "e332d3478355881241a52bb19ebe755a3bf66750",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
