@@ -104,6 +104,24 @@
       "parentUuid": "dfbbf987_1b67e8a5",
       "revId": "e332d3478355881241a52bb19ebe755a3bf66750",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1e7e8e2b_55d3e63a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34512
+      },
+      "writtenOn": "2025-06-08T11:56:29Z",
+      "side": 1,
+      "message": "I keep getting this error when I try and apply an interface\n\nhttps://pastebin.com/A1ZESWtn",
+      "parentUuid": "bd03775c_eb340a1f",
+      "revId": "e332d3478355881241a52bb19ebe755a3bf66750",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
