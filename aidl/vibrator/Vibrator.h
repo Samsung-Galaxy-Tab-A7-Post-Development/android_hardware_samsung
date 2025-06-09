@@ -69,6 +69,7 @@ public:
 
 private:
     ndk::ScopedAStatus activate(uint32_t ms);
+    ndk::ScopedAStatus uploadFFEffect(short effectId, int timeoutMs);
     uint32_t effectToMs(Effect effect, ndk::ScopedAStatus* status);
     static float strengthToAmplitude(EffectStrength strength, ndk::ScopedAStatus* status);
 
@@ -82,8 +83,11 @@ private:
     std::mutex mMutex;
 
     bool mIsTimedOutVibrator;
+    bool mIsForceFeedbackVibrator;
     bool mHasTimedOutIntensity;
     bool mHasTimedOutEffect;
+
+    int mVibratorFd;
 };
 
 } // namespace vibrator
