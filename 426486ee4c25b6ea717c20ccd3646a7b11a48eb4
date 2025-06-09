@@ -33,6 +33,24 @@
       "message": "breaks vibrator entirely on non ff devices. tested on A21s (e850)\n\nLog: https://drive.google.com/file/d/11ePAWowPiOtsMXxRhVJvjIsLG1oWE1Iv/view?usp\u003dsharing",
       "revId": "426486ee4c25b6ea717c20ccd3646a7b11a48eb4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8af90138_26e67143",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-06-09T21:06:27Z",
+      "side": 1,
+      "message": "eh, unique_fd was wrong here, so undone that part.",
+      "parentUuid": "683ad39c_7b497ccf",
+      "revId": "426486ee4c25b6ea717c20ccd3646a7b11a48eb4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
