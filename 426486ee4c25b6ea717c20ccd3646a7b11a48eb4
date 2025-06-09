@@ -16,6 +16,23 @@
       "message": "I fixed some obvious bugs and code style issues, someone else should review.",
       "revId": "426486ee4c25b6ea717c20ccd3646a7b11a48eb4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7c06dc56_dd4f61ee",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34512
+      },
+      "writtenOn": "2025-06-09T20:56:20Z",
+      "side": 1,
+      "message": "breaks vibrator entirely on non ff devices. tested on A21s (e850)\n\nLog: https://drive.google.com/file/d/11ePAWowPiOtsMXxRhVJvjIsLG1oWE1Iv/view?usp\u003dsharing",
+      "revId": "426486ee4c25b6ea717c20ccd3646a7b11a48eb4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
