@@ -39,6 +39,30 @@
       },
       "revId": "087a85236774026b7655fe3101db8594ee5dfdcd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "eee86cf8_859f71e0",
+        "filename": "aidl/vibrator/Vibrator.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 174,
+      "author": {
+        "id": 34207
+      },
+      "writtenOn": "2025-06-11T12:02:22Z",
+      "side": 1,
+      "message": "Actually, this is an issue in timed output too.",
+      "parentUuid": "6d4b2d3f_270f604c",
+      "range": {
+        "startLine": 170,
+        "startChar": 72,
+        "endLine": 174,
+        "endChar": 49
+      },
+      "revId": "087a85236774026b7655fe3101db8594ee5dfdcd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
