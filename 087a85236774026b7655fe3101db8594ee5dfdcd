@@ -16,6 +16,29 @@
       "message": "non ff works e850",
       "revId": "087a85236774026b7655fe3101db8594ee5dfdcd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6d4b2d3f_270f604c",
+        "filename": "aidl/vibrator/Vibrator.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 174,
+      "author": {
+        "id": 34207
+      },
+      "writtenOn": "2025-06-11T11:49:11Z",
+      "side": 1,
+      "message": "effectToMs doesn\u0027t get called here, resulting in a badly timed callback.",
+      "range": {
+        "startLine": 170,
+        "startChar": 72,
+        "endLine": 174,
+        "endChar": 49
+      },
+      "revId": "087a85236774026b7655fe3101db8594ee5dfdcd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
