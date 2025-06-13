@@ -65,6 +65,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "140fe6a7_c4872073",
+        "filename": "aidl/vibrator/Vibrator.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 174,
+      "author": {
+        "id": 34207
+      },
+      "writtenOn": "2025-06-13T12:36:05Z",
+      "side": 1,
+      "message": "Will fix in a different commit.",
+      "parentUuid": "eee86cf8_859f71e0",
+      "range": {
+        "startLine": 170,
+        "startChar": 72,
+        "endLine": 174,
+        "endChar": 49
+      },
+      "revId": "087a85236774026b7655fe3101db8594ee5dfdcd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c65965c7_c5fa3174",
@@ -78,6 +102,24 @@
       "writtenOn": "2025-06-11T13:32:19Z",
       "side": 1,
       "message": "This is supposed to fail if there is not effect uploaded yet.",
+      "revId": "087a85236774026b7655fe3101db8594ee5dfdcd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b2e65ff5_76d4a5f5",
+        "filename": "aidl/vibrator/Vibrator.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 358,
+      "author": {
+        "id": 34207
+      },
+      "writtenOn": "2025-06-13T12:36:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c65965c7_c5fa3174",
       "revId": "087a85236774026b7655fe3101db8594ee5dfdcd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
