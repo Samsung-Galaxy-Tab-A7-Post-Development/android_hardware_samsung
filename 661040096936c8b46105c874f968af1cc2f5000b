@@ -70,6 +70,24 @@
       "parentUuid": "5891a000_356999a4",
       "revId": "661040096936c8b46105c874f968af1cc2f5000b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "151be681_3fda9a08",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34207
+      },
+      "writtenOn": "2025-06-30T19:10:51Z",
+      "side": 1,
+      "message": "Why not just register all, since they have isSupported methods anyways?",
+      "parentUuid": "acf1c476_b0c35c1d",
+      "revId": "661040096936c8b46105c874f968af1cc2f5000b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
