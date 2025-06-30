@@ -16,6 +16,24 @@
       "message": "Wouldn\u0027t it be better to determine the features at runtime?",
       "revId": "661040096936c8b46105c874f968af1cc2f5000b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7c770224_81520d25",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-06-30T14:52:26Z",
+      "side": 1,
+      "message": "This is for copying the vintf manifests.",
+      "parentUuid": "6e7c27bd_bfc244e1",
+      "revId": "661040096936c8b46105c874f968af1cc2f5000b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
