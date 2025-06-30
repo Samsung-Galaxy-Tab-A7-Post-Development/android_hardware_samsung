@@ -52,6 +52,24 @@
       "parentUuid": "7c770224_81520d25",
       "revId": "661040096936c8b46105c874f968af1cc2f5000b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "acf1c476_b0c35c1d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-06-30T16:47:28Z",
+      "side": 1,
+      "message": "Because it\u0027s not possible. Android will try to register an interface that\u0027s not available.",
+      "parentUuid": "5891a000_356999a4",
+      "revId": "661040096936c8b46105c874f968af1cc2f5000b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
