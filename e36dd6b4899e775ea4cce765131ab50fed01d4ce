@@ -34,6 +34,23 @@
       "parentUuid": "9fa02902_e22229cf",
       "revId": "e36dd6b4899e775ea4cce765131ab50fed01d4ce",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2fcd27ff_63d7f53d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-07-07T20:05:52Z",
+      "side": 1,
+      "message": "I see no reason to hold for 23.0",
+      "revId": "e36dd6b4899e775ea4cce765131ab50fed01d4ce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
