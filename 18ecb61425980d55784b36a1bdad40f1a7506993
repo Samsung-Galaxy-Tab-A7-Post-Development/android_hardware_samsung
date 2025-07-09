@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9028a1f3_77b5e50e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-07-09T00:06:15Z",
+      "side": 1,
+      "message": "this is based on a private change, and therefore can\u0027t be merged unless you rebase it.",
+      "revId": "18ecb61425980d55784b36a1bdad40f1a7506993",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
